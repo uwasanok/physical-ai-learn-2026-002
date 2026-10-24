@@ -1,0 +1,3 @@
+FROM physical-ai-toilet:collision
+RUN python3 -m pip install --break-system-packages --no-cache-dir torch==2.9.1 --index-url https://download.pytorch.org/whl/cu126
+WORKDIR /work/scripts

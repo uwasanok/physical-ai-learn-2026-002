@@ -1,0 +1,68 @@
+{
+  "validation": {
+    "images": 120,
+    "learned": {
+      "iou": 0.9992118176501996,
+      "precision": 0.9997201801022615,
+      "recall": 0.9994913530010173,
+      "dice": 0.9996057534560161,
+      "tp": 39300,
+      "fp": 11,
+      "fn": 20,
+      "positive_image_mean_iou": 0.9993332184111424,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "color_baseline": {
+      "iou": 0.05862156663275687,
+      "precision": 1.0,
+      "recall": 0.05862156663275687,
+      "dice": 0.11075075075075075,
+      "tp": 2305,
+      "fp": 0,
+      "fn": 37015,
+      "positive_image_mean_iou": 0.06035088188395762,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "inference_total_s": 0.088684419000856,
+    "inference_mean_s_per_image": 0.0007390368250071333
+  },
+  "test": {
+    "images": 120,
+    "learned": {
+      "iou": 0.9999169917821864,
+      "precision": 0.9999723290627853,
+      "recall": 0.9999446596568898,
+      "dice": 0.9999584941684306,
+      "tp": 36138,
+      "fp": 1,
+      "fn": 2,
+      "positive_image_mean_iou": 0.999868077414004,
+      "empty_images": 25,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "color_baseline": {
+      "iou": 0.05711123408965135,
+      "precision": 1.0,
+      "recall": 0.05711123408965135,
+      "dice": 0.10805151293058318,
+      "tp": 2064,
+      "fp": 0,
+      "fn": 34076,
+      "positive_image_mean_iou": 0.05327098776558105,
+      "empty_images": 25,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "inference_total_s": 0.04625930300062464,
+    "inference_mean_s_per_image": 0.000385494191671872
+  },
+  "status": "evaluated_once_after_freeze",
+  "model_sha256": "520025c9a0a0caad2461c2c378295eaf1abb2ed6cddf217571e52e5b4de5b500",
+  "threshold": 0.4,
+  "scope": "synthetic fixed-geometry segmentation only; not real-world or closed-loop cleaning validation"
+}

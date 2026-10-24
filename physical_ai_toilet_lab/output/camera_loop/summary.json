@@ -1,0 +1,42 @@
+{
+  "kind": "synthetic_camera_known_CAD_color_threshold",
+  "camera_position_m": [
+    0.0,
+    -0.65,
+    1.0
+  ],
+  "resolution": [
+    640,
+    480
+  ],
+  "focal_pixels": 840.0,
+  "limitations": [
+    "no real camera or learned AI",
+    "illustrative paraboloid, no rim/arm occlusion",
+    "ideal curve-following tool; no IK/force physics",
+    "development seeds only"
+  ],
+  "runs": [
+    {
+      "status": "observed_roi_clear",
+      "actions": 32,
+      "evaluation_residual_area": 0.0,
+      "evaluation_false_clear": false,
+      "seed": 42
+    },
+    {
+      "status": "observed_roi_clear",
+      "actions": 23,
+      "evaluation_residual_area": 0.0,
+      "evaluation_false_clear": false,
+      "seed": 123
+    },
+    {
+      "status": "observed_roi_clear",
+      "actions": 33,
+      "evaluation_residual_area": 0.0,
+      "evaluation_false_clear": false,
+      "seed": 999
+    }
+  ]
+}

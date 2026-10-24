@@ -1,0 +1,89 @@
+{
+  "seed": 53772,
+  "role": "development",
+  "camera_status": "observed_roi_clear",
+  "camera_residual": 0.0,
+  "cleaning_actions": 29,
+  "dirty_cells": 151,
+  "visible_dirty_cells": 151,
+  "patches": [
+    {
+      "center_uv_m": [
+        -0.07245304427050542,
+        0.10249612298461488
+      ],
+      "radius_uv_m": [
+        0.013585087655728297,
+        0.015625208805745895
+      ],
+      "required_passes": 1
+    },
+    {
+      "center_uv_m": [
+        0.004527434822978724,
+        0.06630862288484804
+      ],
+      "radius_uv_m": [
+        0.017913629025320996,
+        0.015984416021363478
+      ],
+      "required_passes": 3
+    },
+    {
+      "center_uv_m": [
+        0.05748805614897882,
+        0.11138203690985093
+      ],
+      "radius_uv_m": [
+        0.014947515803733297,
+        0.018732832210469938
+      ],
+      "required_passes": 5
+    }
+  ],
+  "tool_length_m": 0.18,
+  "status": "rejected",
+  "reason": "No transfer after action 5: approach: wrist_1_link / rim",
+  "partial_samples": 2035,
+  "collision_queries": 3804,
+  "attempts": [
+    {
+      "after_action": 1,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 2,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 3,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 4,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 5,
+      "clearance_m": 0.08,
+      "result": "rejected",
+      "reason": "approach: wrist_1_link / rim"
+    },
+    {
+      "after_action": 5,
+      "clearance_m": 0.12,
+      "result": "rejected",
+      "reason": "approach: wrist_1_link / rim"
+    },
+    {
+      "after_action": 5,
+      "clearance_m": 0.16,
+      "result": "rejected",
+      "reason": "approach: wrist_1_link / rim"
+    }
+  ]
+}

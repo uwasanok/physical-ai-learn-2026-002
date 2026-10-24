@@ -1,0 +1,410 @@
+{
+  "geometry": "quartic_bowl_with_rim_v1",
+  "roi": {
+    "roi_uv_m": [
+      [
+        -0.11,
+        0.11
+      ],
+      [
+        0.025,
+        0.155
+      ]
+    ],
+    "grid_points": 1904,
+    "visible_points": 1904,
+    "scope": "fixed camera versus bowl/rim; arm occlusion not included"
+  },
+  "conditions_frozen_before_scenes": true,
+  "seeds": [
+    42,
+    123,
+    999,
+    2026,
+    53772
+  ],
+  "runs": [
+    {
+      "seed": 42,
+      "role": "development",
+      "camera_status": "observed_roi_clear",
+      "camera_residual": 0.0,
+      "cleaning_actions": 35,
+      "dirty_cells": 163,
+      "visible_dirty_cells": 163,
+      "patches": [
+        {
+          "center_uv_m": [
+            -0.06597794496396717,
+            0.11510185439379678
+          ],
+          "radius_uv_m": [
+            0.017578944232474913,
+            0.012753418783101196
+          ],
+          "required_passes": 5
+        },
+        {
+          "center_uv_m": [
+            0.007609957626188095,
+            0.10827977913932471
+          ],
+          "radius_uv_m": [
+            0.01828851444221563,
+            0.013024909061404367
+          ],
+          "required_passes": 3
+        },
+        {
+          "center_uv_m": [
+            0.06420617500632908,
+            0.08095586169628069
+          ],
+          "radius_uv_m": [
+            0.019414119910788813,
+            0.017150920960645317
+          ],
+          "required_passes": 1
+        }
+      ],
+      "status": "rejected",
+      "reason": "approach: wrist_1_link / rim",
+      "partial_samples": 1,
+      "collision_queries": 69,
+      "attempts": []
+    },
+    {
+      "seed": 123,
+      "role": "development",
+      "camera_status": "observed_roi_clear",
+      "camera_residual": 0.0,
+      "cleaning_actions": 26,
+      "dirty_cells": 135,
+      "visible_dirty_cells": 135,
+      "patches": [
+        {
+          "center_uv_m": [
+            -0.07213886369916445,
+            0.0704251910940828
+          ],
+          "radius_uv_m": [
+            0.013474974485589358,
+            0.013407247208680244
+          ],
+          "required_passes": 1
+        },
+        {
+          "center_uv_m": [
+            0.004993512106492378,
+            0.11963414986189394
+          ],
+          "radius_uv_m": [
+            0.014212595182376851,
+            0.01855803649274402
+          ],
+          "required_passes": 5
+        },
+        {
+          "center_uv_m": [
+            0.07123828308977898,
+            0.09090793186606724
+          ],
+          "radius_uv_m": [
+            0.013959716808550373,
+            0.01859393276877929
+          ],
+          "required_passes": 3
+        }
+      ],
+      "status": "rejected",
+      "reason": "No transfer after action 8: approach: wrist_1_link / rim",
+      "partial_samples": 2951,
+      "collision_queries": 4609,
+      "attempts": [
+        {
+          "after_action": 1,
+          "clearance_m": 0.08,
+          "result": "accepted"
+        },
+        {
+          "after_action": 2,
+          "clearance_m": 0.08,
+          "result": "accepted"
+        },
+        {
+          "after_action": 3,
+          "clearance_m": 0.08,
+          "result": "accepted"
+        },
+        {
+          "after_action": 4,
+          "clearance_m": 0.08,
+          "result": "accepted"
+        },
+        {
+          "after_action": 5,
+          "clearance_m": 0.08,
+          "result": "accepted"
+        },
+        {
+          "after_action": 6,
+          "clearance_m": 0.08,
+          "result": "accepted"
+        },
+        {
+          "after_action": 7,
+          "clearance_m": 0.08,
+          "result": "accepted"
+        },
+        {
+          "after_action": 8,
+          "clearance_m": 0.08,
+          "result": "rejected",
+          "reason": "approach: wrist_1_link / rim"
+        },
+        {
+          "after_action": 8,
+          "clearance_m": 0.12,
+          "result": "rejected",
+          "reason": "approach: wrist_1_link / rim"
+        },
+        {
+          "after_action": 8,
+          "clearance_m": 0.16,
+          "result": "rejected",
+          "reason": "approach: wrist_1_link / rim"
+        }
+      ]
+    },
+    {
+      "seed": 999,
+      "role": "development",
+      "camera_status": "observed_roi_clear",
+      "camera_residual": 0.0,
+      "cleaning_actions": 37,
+      "dirty_cells": 167,
+      "visible_dirty_cells": 167,
+      "patches": [
+        {
+          "center_uv_m": [
+            -0.07024402190679982,
+            0.10495009554146395
+          ],
+          "radius_uv_m": [
+            0.018002680622232235,
+            0.01336887261486394
+          ],
+          "required_passes": 1
+        },
+        {
+          "center_uv_m": [
+            0.006430792973075293,
+            0.06492470792443755
+          ],
+          "radius_uv_m": [
+            0.016889829637283936,
+            0.0192875449575268
+          ],
+          "required_passes": 5
+        },
+        {
+          "center_uv_m": [
+            0.06005237236095687,
+            0.09401799314247816
+          ],
+          "radius_uv_m": [
+            0.016896509449897616,
+            0.01610343482776292
+          ],
+          "required_passes": 3
+        }
+      ],
+      "status": "rejected",
+      "reason": "approach: wrist_1_link / rim",
+      "partial_samples": 1,
+      "collision_queries": 63,
+      "attempts": []
+    },
+    {
+      "seed": 2026,
+      "role": "development",
+      "camera_status": "observed_roi_clear",
+      "camera_residual": 0.0,
+      "cleaning_actions": 32,
+      "dirty_cells": 155,
+      "visible_dirty_cells": 155,
+      "patches": [
+        {
+          "center_uv_m": [
+            -0.06276138934855753,
+            0.08770878808004395
+          ],
+          "radius_uv_m": [
+            0.014964004216864384,
+            0.01483933867447721
+          ],
+          "required_passes": 3
+        },
+        {
+          "center_uv_m": [
+            0.004648291933652241,
+            0.1183600685674022
+          ],
+          "radius_uv_m": [
+            0.01341882553458439,
+            0.017222278421481056
+          ],
+          "required_passes": 1
+        },
+        {
+          "center_uv_m": [
+            0.06177284427768911,
+            0.12268735401136735
+          ],
+          "radius_uv_m": [
+            0.019358801284298226,
+            0.01708696643315721
+          ],
+          "required_passes": 5
+        }
+      ],
+      "status": "rejected",
+      "reason": "No transfer after action 6: approach: wrist_1_link / rim",
+      "partial_samples": 2582,
+      "collision_queries": 3929,
+      "attempts": [
+        {
+          "after_action": 1,
+          "clearance_m": 0.08,
+          "result": "accepted"
+        },
+        {
+          "after_action": 2,
+          "clearance_m": 0.08,
+          "result": "accepted"
+        },
+        {
+          "after_action": 3,
+          "clearance_m": 0.08,
+          "result": "accepted"
+        },
+        {
+          "after_action": 4,
+          "clearance_m": 0.08,
+          "result": "accepted"
+        },
+        {
+          "after_action": 5,
+          "clearance_m": 0.08,
+          "result": "accepted"
+        },
+        {
+          "after_action": 6,
+          "clearance_m": 0.08,
+          "result": "rejected",
+          "reason": "approach: wrist_1_link / rim"
+        },
+        {
+          "after_action": 6,
+          "clearance_m": 0.12,
+          "result": "rejected",
+          "reason": "approach: wrist_1_link / rim"
+        },
+        {
+          "after_action": 6,
+          "clearance_m": 0.16,
+          "result": "rejected",
+          "reason": "approach: wrist_1_link / rim"
+        }
+      ]
+    },
+    {
+      "seed": 53772,
+      "role": "development",
+      "camera_status": "observed_roi_clear",
+      "camera_residual": 0.0,
+      "cleaning_actions": 29,
+      "dirty_cells": 151,
+      "visible_dirty_cells": 151,
+      "patches": [
+        {
+          "center_uv_m": [
+            -0.07245304427050542,
+            0.10249612298461488
+          ],
+          "radius_uv_m": [
+            0.013585087655728297,
+            0.015625208805745895
+          ],
+          "required_passes": 1
+        },
+        {
+          "center_uv_m": [
+            0.004527434822978724,
+            0.06630862288484804
+          ],
+          "radius_uv_m": [
+            0.017913629025320996,
+            0.015984416021363478
+          ],
+          "required_passes": 3
+        },
+        {
+          "center_uv_m": [
+            0.05748805614897882,
+            0.11138203690985093
+          ],
+          "radius_uv_m": [
+            0.014947515803733297,
+            0.018732832210469938
+          ],
+          "required_passes": 5
+        }
+      ],
+      "status": "rejected",
+      "reason": "No transfer after action 5: approach: wrist_1_link / rim",
+      "partial_samples": 2035,
+      "collision_queries": 3804,
+      "attempts": [
+        {
+          "after_action": 1,
+          "clearance_m": 0.08,
+          "result": "accepted"
+        },
+        {
+          "after_action": 2,
+          "clearance_m": 0.08,
+          "result": "accepted"
+        },
+        {
+          "after_action": 3,
+          "clearance_m": 0.08,
+          "result": "accepted"
+        },
+        {
+          "after_action": 4,
+          "clearance_m": 0.08,
+          "result": "accepted"
+        },
+        {
+          "after_action": 5,
+          "clearance_m": 0.08,
+          "result": "rejected",
+          "reason": "approach: wrist_1_link / rim"
+        },
+        {
+          "after_action": 5,
+          "clearance_m": 0.12,
+          "result": "rejected",
+          "reason": "approach: wrist_1_link / rim"
+        },
+        {
+          "after_action": 5,
+          "clearance_m": 0.16,
+          "result": "rejected",
+          "reason": "approach: wrist_1_link / rim"
+        }
+      ]
+    }
+  ]
+}

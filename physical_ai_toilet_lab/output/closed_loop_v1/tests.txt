@@ -1,0 +1,45 @@
+test_different_hidden_n_same_observation_same_action (test_camera_loop.CameraTests.test_different_hidden_n_same_observation_same_action) ... ok
+test_hard_stain_budget_does_not_claim_success (test_camera_loop.CameraTests.test_hard_stain_budget_does_not_claim_success) ... ok
+test_no_dirt_and_missing_frame (test_camera_loop.CameraTests.test_no_dirt_and_missing_frame) ... ok
+test_projection_roundtrip (test_camera_loop.CameraTests.test_projection_roundtrip) ... ok
+test_repeat_cleaning_and_different_positions (test_camera_loop.CameraTests.test_repeat_cleaning_and_different_positions) ... ok
+test_different_location_is_not_cleaned (test_cleaning_model.CleaningTests.test_different_location_is_not_cleaned) ... ok
+test_empty_scene (test_cleaning_model.CleaningTests.test_empty_scene) ... ok
+test_exact_n_and_reverse (test_cleaning_model.CleaningTests.test_exact_n_and_reverse) ... ok
+test_seed_reproducibility_and_full_raster (test_cleaning_model.CleaningTests.test_seed_reproducibility_and_full_raster) ... ok
+test_stationary_hover_wrong_angle_and_penetration (test_cleaning_model.CleaningTests.test_stationary_hover_wrong_angle_and_penetration) ... ok
+test_teleport_and_lift_do_not_complete_pass (test_cleaning_model.CleaningTests.test_teleport_and_lift_do_not_complete_pass) ... ok
+test_hidden_n_does_not_change_initial_rgb_or_action (test_closed_loop.ClosedLoopTests.test_hidden_n_does_not_change_initial_rgb_or_action) ... ok
+test_model_remains_frozen (test_closed_loop.ClosedLoopTests.test_model_remains_frozen) ... ok
+test_saved_motion_against_collision_world (test_closed_loop.ClosedLoopTests.test_saved_motion_against_collision_world) ... ok
+test_three_unseen_scenes_and_negative_cases (test_closed_loop.ClosedLoopTests.test_three_unseen_scenes_and_negative_cases) ... ok
+test_all_saved_samples_and_no_joint_jumps (test_collision_motion.CollisionTests.test_all_saved_samples_and_no_joint_jumps) ... ok
+test_brush_contact_is_not_globally_exempt (test_collision_motion.CollisionTests.test_brush_contact_is_not_globally_exempt) ... ok
+test_new_obstacle_is_detected (test_collision_motion.CollisionTests.test_new_obstacle_is_detected) ... ok
+test_self_collision_is_detected (test_collision_motion.CollisionTests.test_self_collision_is_detected) ... ok
+test_triangle_crossing_without_matching_vertices (test_collision_motion.CollisionTests.test_triangle_crossing_without_matching_vertices) ... ok
+test_five_scene_paths_against_new_geometry (test_geometry_trials.GeometryTrialTests.test_five_scene_paths_against_new_geometry) ... ok
+test_cleaning_pose_hides_roi_but_observation_pose_does_not (test_observation.ObservationTests.test_cleaning_pose_hides_roi_but_observation_pose_does_not) ... ok
+test_roi_ray_intersections_independent_of_renderer (test_observation.ObservationTests.test_roi_ray_intersections_independent_of_renderer) ... ok
+test_saved_route_endpoints_and_sampling (test_observation.ObservationTests.test_saved_route_endpoints_and_sampling) ... ok
+test_actual_z_and_orientation_control_contact (test_pose3d.Pose3DTests.test_actual_z_and_orientation_control_contact) ... ok
+test_flat_xy_path_fails_curved_surface (test_pose3d.Pose3DTests.test_flat_xy_path_fails_curved_surface) ... ok
+test_invalid_pose_rejected (test_pose3d.Pose3DTests.test_invalid_pose_rejected) ... ok
+test_adapter_is_rgb_only_and_keeps_roi (test_segmentation.SegmentationTests.test_adapter_is_rgb_only_and_keeps_roi) ... ok
+test_frozen_weights_match_evaluation (test_segmentation.SegmentationTests.test_frozen_weights_match_evaluation) ... ok
+test_metrics_exclude_unobserved_pixels (test_segmentation.SegmentationTests.test_metrics_exclude_unobserved_pixels) ... ok
+test_metrics_known_examples (test_segmentation.SegmentationTests.test_metrics_known_examples) ... ok
+test_model_input_output_shape (test_segmentation.SegmentationTests.test_model_input_output_shape) ... ok
+test_declared_roi_visible_but_near_wall_occluded (test_toilet_geometry.ToiletGeometryTests.test_declared_roi_visible_but_near_wall_occluded) ... ok
+test_normals_match_geometry (test_toilet_geometry.ToiletGeometryTests.test_normals_match_geometry) ... ok
+test_rim_is_not_contact_exempt (test_toilet_geometry.ToiletGeometryTests.test_rim_is_not_contact_exempt) ... ok
+test_surface_roundtrip (test_toilet_geometry.ToiletGeometryTests.test_surface_roundtrip) ... ok
+test_ik_fk_round_trip (test_ur5e.UR5eTests.test_ik_fk_round_trip) ... ok
+test_saved_motion_limits_and_discontinuities (test_ur5e.UR5eTests.test_saved_motion_limits_and_discontinuities) ... ok
+test_unreachable_target_is_not_success (test_ur5e.UR5eTests.test_unreachable_target_is_not_success) ... ok
+test_zero_configuration_matches_published_link_offsets (test_ur5e.UR5eTests.test_zero_configuration_matches_published_link_offsets) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 56.493s
+
+OK

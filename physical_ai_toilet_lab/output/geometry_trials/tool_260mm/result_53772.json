@@ -1,0 +1,205 @@
+{
+  "seed": 53772,
+  "role": "development",
+  "camera_status": "observed_roi_clear",
+  "camera_residual": 0.0,
+  "cleaning_actions": 29,
+  "dirty_cells": 151,
+  "visible_dirty_cells": 151,
+  "patches": [
+    {
+      "center_uv_m": [
+        -0.07245304427050542,
+        0.10249612298461488
+      ],
+      "radius_uv_m": [
+        0.013585087655728297,
+        0.015625208805745895
+      ],
+      "required_passes": 1
+    },
+    {
+      "center_uv_m": [
+        0.004527434822978724,
+        0.06630862288484804
+      ],
+      "radius_uv_m": [
+        0.017913629025320996,
+        0.015984416021363478
+      ],
+      "required_passes": 3
+    },
+    {
+      "center_uv_m": [
+        0.05748805614897882,
+        0.11138203690985093
+      ],
+      "radius_uv_m": [
+        0.014947515803733297,
+        0.018732832210469938
+      ],
+      "required_passes": 5
+    }
+  ],
+  "tool_length_m": 0.26,
+  "status": "planned",
+  "samples": 12132,
+  "fk_remaining_cells": 0,
+  "duration_s": 242.6200000000503,
+  "max_joint_step_deg": 0.24996969118621176,
+  "collision_queries": 12575,
+  "attempts": [
+    {
+      "after_action": 1,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 2,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 3,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 4,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 5,
+      "clearance_m": 0.08,
+      "result": "rejected",
+      "reason": "transfer: brush / bowl"
+    },
+    {
+      "after_action": 5,
+      "clearance_m": 0.12,
+      "result": "rejected",
+      "reason": "transfer: brush / bowl"
+    },
+    {
+      "after_action": 5,
+      "clearance_m": 0.16,
+      "result": "accepted"
+    },
+    {
+      "after_action": 6,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 7,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 8,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 9,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 10,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 11,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 12,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 13,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 14,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 15,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 16,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 17,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 18,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 19,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 20,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 21,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 22,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 23,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 24,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 25,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 26,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 27,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 28,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    }
+  ]
+}

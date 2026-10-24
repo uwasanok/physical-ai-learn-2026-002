@@ -1,0 +1,64 @@
+{
+  "name": "empty",
+  "seed": 410004,
+  "empty": true,
+  "max_actions": 10,
+  "status": "observed_roi_clear",
+  "reason": null,
+  "actions": 0,
+  "observations": 1,
+  "records": [
+    {
+      "step": 0,
+      "pixels": 0,
+      "target": null,
+      "evaluation_remaining_cells": 0,
+      "evaluation_residual_area": 0.0
+    }
+  ],
+  "remaining_cells": 0,
+  "residual_area": 0.0,
+  "false_clear": false,
+  "checked_configurations": 1,
+  "executed_samples": 1,
+  "max_joint_step_deg": 0.0,
+  "planned_duration_s": 1.0,
+  "compute_duration_s": 0.12244752400147263,
+  "patches": [
+    {
+      "center_uv_m": [
+        -0.05845382049359282,
+        0.09479411768810236
+      ],
+      "radius_uv_m": [
+        0.016908576789456405,
+        0.016444956332967817
+      ],
+      "required_passes": 1
+    },
+    {
+      "center_uv_m": [
+        0.0025216397800105726,
+        0.055222804880802896
+      ],
+      "radius_uv_m": [
+        0.018988201112102386,
+        0.015559296967794085
+      ],
+      "required_passes": 5
+    },
+    {
+      "center_uv_m": [
+        0.061482175378366685,
+        0.09386109841443832
+      ],
+      "radius_uv_m": [
+        0.012730760447696993,
+        0.01650555711088375
+      ],
+      "required_passes": 3
+    }
+  ],
+  "required_passes_values": [],
+  "scope": "RGB-only online perception; sampled kinematics/collision and geometric contact surrogate; no dynamics or torque control"
+}

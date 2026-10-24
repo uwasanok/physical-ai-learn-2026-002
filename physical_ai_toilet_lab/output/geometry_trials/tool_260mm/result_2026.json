@@ -1,0 +1,214 @@
+{
+  "seed": 2026,
+  "role": "development",
+  "camera_status": "observed_roi_clear",
+  "camera_residual": 0.0,
+  "cleaning_actions": 32,
+  "dirty_cells": 155,
+  "visible_dirty_cells": 155,
+  "patches": [
+    {
+      "center_uv_m": [
+        -0.06276138934855753,
+        0.08770878808004395
+      ],
+      "radius_uv_m": [
+        0.014964004216864384,
+        0.01483933867447721
+      ],
+      "required_passes": 3
+    },
+    {
+      "center_uv_m": [
+        0.004648291933652241,
+        0.1183600685674022
+      ],
+      "radius_uv_m": [
+        0.01341882553458439,
+        0.017222278421481056
+      ],
+      "required_passes": 1
+    },
+    {
+      "center_uv_m": [
+        0.06177284427768911,
+        0.12268735401136735
+      ],
+      "radius_uv_m": [
+        0.019358801284298226,
+        0.01708696643315721
+      ],
+      "required_passes": 5
+    }
+  ],
+  "tool_length_m": 0.26,
+  "status": "planned",
+  "samples": 14746,
+  "fk_remaining_cells": 0,
+  "duration_s": 294.90000000002175,
+  "max_joint_step_deg": 0.24984081998349758,
+  "collision_queries": 14938,
+  "attempts": [
+    {
+      "after_action": 1,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 2,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 3,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 4,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 5,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 6,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 7,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 8,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 9,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 10,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 11,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 12,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 13,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 14,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 15,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 16,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 17,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 18,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 19,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 20,
+      "clearance_m": 0.08,
+      "result": "rejected",
+      "reason": "transfer: brush / bowl"
+    },
+    {
+      "after_action": 20,
+      "clearance_m": 0.12,
+      "result": "accepted"
+    },
+    {
+      "after_action": 21,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 22,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 23,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 24,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 25,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 26,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 27,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 28,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 29,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 30,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    },
+    {
+      "after_action": 31,
+      "clearance_m": 0.08,
+      "result": "accepted"
+    }
+  ]
+}

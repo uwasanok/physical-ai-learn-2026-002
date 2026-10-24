@@ -1,0 +1,287 @@
+{
+  "name": "random_410002",
+  "seed": 410002,
+  "max_actions": 100,
+  "status": "observed_roi_clear",
+  "reason": null,
+  "actions": 20,
+  "observations": 21,
+  "records": [
+    {
+      "step": 0,
+      "pixels": 300,
+      "target": [
+        0.061150475354934966,
+        0.11618474221411079,
+        0.25111810006573393
+      ],
+      "evaluation_remaining_cells": 122,
+      "evaluation_residual_area": 1.0
+    },
+    {
+      "step": 1,
+      "pixels": 300,
+      "target": [
+        0.061150475354934966,
+        0.11618474221411079,
+        0.25111810006573393
+      ],
+      "evaluation_remaining_cells": 122,
+      "evaluation_residual_area": 1.0
+    },
+    {
+      "step": 2,
+      "pixels": 300,
+      "target": [
+        0.061150475354934966,
+        0.11618474221411079,
+        0.25111810006573393
+      ],
+      "evaluation_remaining_cells": 122,
+      "evaluation_residual_area": 1.0
+    },
+    {
+      "step": 3,
+      "pixels": 300,
+      "target": [
+        0.061150475354934966,
+        0.11618474221411079,
+        0.25111810006573393
+      ],
+      "evaluation_remaining_cells": 122,
+      "evaluation_residual_area": 1.0
+    },
+    {
+      "step": 4,
+      "pixels": 300,
+      "target": [
+        0.061150475354934966,
+        0.11618474221411079,
+        0.25111810006573393
+      ],
+      "evaluation_remaining_cells": 122,
+      "evaluation_residual_area": 1.0
+    },
+    {
+      "step": 5,
+      "pixels": 225,
+      "target": [
+        -0.08280056730690644,
+        0.09150765625829721,
+        0.25211989118485084
+      ],
+      "evaluation_remaining_cells": 95,
+      "evaluation_residual_area": 0.7623071597827676
+    },
+    {
+      "step": 6,
+      "pixels": 162,
+      "target": [
+        0.0038324422570429678,
+        0.09903018617946846,
+        0.23090856089651243
+      ],
+      "evaluation_remaining_cells": 72,
+      "evaluation_residual_area": 0.5595239373037282
+    },
+    {
+      "step": 7,
+      "pixels": 162,
+      "target": [
+        0.0038324422570429678,
+        0.09903018617946846,
+        0.23090856089651243
+      ],
+      "evaluation_remaining_cells": 72,
+      "evaluation_residual_area": 0.5595239373037282
+    },
+    {
+      "step": 8,
+      "pixels": 162,
+      "target": [
+        0.0038324422570429678,
+        0.09903018617946846,
+        0.23090856089651243
+      ],
+      "evaluation_remaining_cells": 72,
+      "evaluation_residual_area": 0.5595239373037282
+    },
+    {
+      "step": 9,
+      "pixels": 83,
+      "target": [
+        -0.06069662568188716,
+        0.09197636311818042,
+        0.2399289211612892
+      ],
+      "evaluation_remaining_cells": 33,
+      "evaluation_residual_area": 0.27402360384180824
+    },
+    {
+      "step": 10,
+      "pixels": 56,
+      "target": [
+        -0.07500772325502042,
+        0.07801230625817368,
+        0.24209380336397932
+      ],
+      "evaluation_remaining_cells": 21,
+      "evaluation_residual_area": 0.17694163201359445
+    },
+    {
+      "step": 11,
+      "pixels": 35,
+      "target": [
+        -0.005073739655281034,
+        0.08341136133858679,
+        0.2269329103219549
+      ],
+      "evaluation_remaining_cells": 13,
+      "evaluation_residual_area": 0.11112913386813425
+    },
+    {
+      "step": 12,
+      "pixels": 35,
+      "target": [
+        -0.005073739655281034,
+        0.08341136133858679,
+        0.2269329103219549
+      ],
+      "evaluation_remaining_cells": 13,
+      "evaluation_residual_area": 0.11112913386813425
+    },
+    {
+      "step": 13,
+      "pixels": 35,
+      "target": [
+        -0.005073739655281034,
+        0.08341136133858679,
+        0.2269329103219549
+      ],
+      "evaluation_remaining_cells": 13,
+      "evaluation_residual_area": 0.11112913386813425
+    },
+    {
+      "step": 14,
+      "pixels": 24,
+      "target": [
+        0.057654342523366875,
+        0.13004036638152744,
+        0.2578211500425519
+      ],
+      "evaluation_remaining_cells": 9,
+      "evaluation_residual_area": 0.08237148868393504
+    },
+    {
+      "step": 15,
+      "pixels": 24,
+      "target": [
+        0.057654342523366875,
+        0.13004036638152744,
+        0.2578211500425519
+      ],
+      "evaluation_remaining_cells": 9,
+      "evaluation_residual_area": 0.08237148868393504
+    },
+    {
+      "step": 16,
+      "pixels": 24,
+      "target": [
+        0.057654342523366875,
+        0.13004036638152744,
+        0.2578211500425519
+      ],
+      "evaluation_remaining_cells": 9,
+      "evaluation_residual_area": 0.08237148868393504
+    },
+    {
+      "step": 17,
+      "pixels": 24,
+      "target": [
+        0.057654342523366875,
+        0.13004036638152744,
+        0.2578211500425519
+      ],
+      "evaluation_remaining_cells": 9,
+      "evaluation_residual_area": 0.08237148868393504
+    },
+    {
+      "step": 18,
+      "pixels": 24,
+      "target": [
+        0.057654342523366875,
+        0.13004036638152744,
+        0.2578211500425519
+      ],
+      "evaluation_remaining_cells": 9,
+      "evaluation_residual_area": 0.08237148868393504
+    },
+    {
+      "step": 19,
+      "pixels": 9,
+      "target": [
+        -0.07575861159150948,
+        0.10367893058430921,
+        0.25307554529112775
+      ],
+      "evaluation_remaining_cells": 4,
+      "evaluation_residual_area": 0.03577412230755452
+    },
+    {
+      "step": 20,
+      "pixels": 0,
+      "target": null,
+      "evaluation_remaining_cells": 0,
+      "evaluation_residual_area": 0.0
+    }
+  ],
+  "remaining_cells": 0,
+  "residual_area": 0.0,
+  "false_clear": false,
+  "checked_configurations": 24733,
+  "executed_samples": 24773,
+  "max_joint_step_deg": 0.2499918113858467,
+  "planned_duration_s": 516.439999999828,
+  "compute_duration_s": 24.698661697000716,
+  "patches": [
+    {
+      "center_uv_m": [
+        -0.0717156540114953,
+        0.09095446352054515
+      ],
+      "radius_uv_m": [
+        0.01458648469895756,
+        0.015886602481185022
+      ],
+      "required_passes": 1
+    },
+    {
+      "center_uv_m": [
+        -0.0038736507425867796,
+        0.09565496663239569
+      ],
+      "radius_uv_m": [
+        0.017801751151603692,
+        0.012445293347572463
+      ],
+      "required_passes": 3
+    },
+    {
+      "center_uv_m": [
+        0.058994041447452204,
+        0.1180175018047761
+      ],
+      "radius_uv_m": [
+        0.012079238742677299,
+        0.013594734780019718
+      ],
+      "required_passes": 5
+    }
+  ],
+  "required_passes_values": [
+    1,
+    3,
+    5
+  ],
+  "scope": "RGB-only online perception; sampled kinematics/collision and geometric contact surrogate; no dynamics or torque control"
+}

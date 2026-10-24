@@ -1,0 +1,542 @@
+[
+  {
+    "epoch": 1,
+    "loss": 1.1232657056105764,
+    "validation": {
+      "iou": 0.8001014177354265,
+      "precision": 0.8254245046537481,
+      "recall": 0.9630722278738555,
+      "dice": 0.8889514889021914,
+      "tp": 37868,
+      "fp": 8009,
+      "fn": 1452,
+      "positive_image_mean_iou": 0.7922684837451913,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 1.062404364000031
+  },
+  {
+    "epoch": 2,
+    "loss": 0.6183184306872519,
+    "validation": {
+      "iou": 0.8629858697124283,
+      "precision": 0.8847132873605776,
+      "recall": 0.9723296032553408,
+      "dice": 0.9264545520633921,
+      "tp": 38232,
+      "fp": 4982,
+      "fn": 1088,
+      "positive_image_mean_iou": 0.8525842836178239,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 1,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 1.694445220999114
+  },
+  {
+    "epoch": 3,
+    "loss": 0.3861026991354792,
+    "validation": {
+      "iou": 0.9693078530604023,
+      "precision": 0.9897930325234606,
+      "recall": 0.9790946083418108,
+      "dice": 0.9844147542031579,
+      "tp": 38498,
+      "fp": 397,
+      "fn": 822,
+      "positive_image_mean_iou": 0.9715217070155673,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 2.313113914000496
+  },
+  {
+    "epoch": 4,
+    "loss": 0.25826532276053177,
+    "validation": {
+      "iou": 0.9856717622723374,
+      "precision": 0.9918265813788202,
+      "recall": 0.9937436419125127,
+      "dice": 0.9927841861883225,
+      "tp": 39074,
+      "fp": 322,
+      "fn": 246,
+      "positive_image_mean_iou": 0.9837393350738854,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 2.9442552469990915
+  },
+  {
+    "epoch": 5,
+    "loss": 0.19430137013918475,
+    "validation": {
+      "iou": 0.9915790006069188,
+      "precision": 0.9943197667047039,
+      "recall": 0.9972278738555442,
+      "dice": 0.9957716970351089,
+      "tp": 39211,
+      "fp": 224,
+      "fn": 109,
+      "positive_image_mean_iou": 0.9895761861602593,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 3.5727422750005644
+  },
+  {
+    "epoch": 6,
+    "loss": 0.15265559581549545,
+    "validation": {
+      "iou": 0.989328422221101,
+      "precision": 0.9919560873194546,
+      "recall": 0.9973296032553408,
+      "dice": 0.9946355877392109,
+      "tp": 39215,
+      "fp": 318,
+      "fn": 105,
+      "positive_image_mean_iou": 0.9888215883205563,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 4.203056078998998
+  },
+  {
+    "epoch": 7,
+    "loss": 0.10967065933111467,
+    "validation": {
+      "iou": 0.9915243516761544,
+      "precision": 0.9947962939459323,
+      "recall": 0.9966937945066124,
+      "dice": 0.9957441402528108,
+      "tp": 39190,
+      "fp": 205,
+      "fn": 130,
+      "positive_image_mean_iou": 0.9926256955765225,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 4.836911020000116
+  },
+  {
+    "epoch": 8,
+    "loss": 0.06414373964071274,
+    "validation": {
+      "iou": 0.993123398208531,
+      "precision": 0.9977311545619089,
+      "recall": 0.9953713123092574,
+      "dice": 0.9965498364036819,
+      "tp": 39138,
+      "fp": 89,
+      "fn": 182,
+      "positive_image_mean_iou": 0.993646904330697,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 5.465665091000119
+  },
+  {
+    "epoch": 9,
+    "loss": 0.03317771106958389,
+    "validation": {
+      "iou": 0.9951603912228247,
+      "precision": 0.9962963902488521,
+      "recall": 0.998855544252289,
+      "dice": 0.9975743259547123,
+      "tp": 39275,
+      "fp": 146,
+      "fn": 45,
+      "positive_image_mean_iou": 0.9958427059681252,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 6.096841250999205
+  },
+  {
+    "epoch": 10,
+    "loss": 0.01339582116097996,
+    "validation": {
+      "iou": 0.995890827922078,
+      "precision": 0.9973581263018849,
+      "recall": 0.9985249237029502,
+      "dice": 0.9979411839463183,
+      "tp": 39262,
+      "fp": 104,
+      "fn": 58,
+      "positive_image_mean_iou": 0.9967262645652474,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 6.729816831999415
+  },
+  {
+    "epoch": 11,
+    "loss": 0.010760613680376034,
+    "validation": {
+      "iou": 0.9971568552788567,
+      "precision": 0.9981450424353306,
+      "recall": 0.9990081383519838,
+      "dice": 0.9985764038945522,
+      "tp": 39281,
+      "fp": 73,
+      "fn": 39,
+      "positive_image_mean_iou": 0.9975836221879073,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 7.348865044999911
+  },
+  {
+    "epoch": 12,
+    "loss": 0.00889256486277047,
+    "validation": {
+      "iou": 0.9958942646425223,
+      "precision": 0.9965256644349767,
+      "recall": 0.9993641912512716,
+      "dice": 0.9979429093864283,
+      "tp": 39295,
+      "fp": 137,
+      "fn": 25,
+      "positive_image_mean_iou": 0.9968918101818992,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 7.983719828000176
+  },
+  {
+    "epoch": 13,
+    "loss": 0.005132912229256411,
+    "validation": {
+      "iou": 0.9980439973581263,
+      "precision": 0.9988305580272022,
+      "recall": 0.9992115971515768,
+      "dice": 0.9990210412561185,
+      "tp": 39289,
+      "fp": 46,
+      "fn": 31,
+      "positive_image_mean_iou": 0.9983085481648989,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 8.603726264000215
+  },
+  {
+    "epoch": 14,
+    "loss": 0.004152028968459682,
+    "validation": {
+      "iou": 0.9978161503301168,
+      "precision": 0.9984753773441073,
+      "recall": 0.9993387589013225,
+      "dice": 0.9989068815618883,
+      "tp": 39294,
+      "fp": 60,
+      "fn": 26,
+      "positive_image_mean_iou": 0.9981279994817054,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 9.25470949299961
+  },
+  {
+    "epoch": 15,
+    "loss": 0.0032815490190650485,
+    "validation": {
+      "iou": 0.9984243163566128,
+      "precision": 0.9992877855216971,
+      "recall": 0.9991353001017294,
+      "dice": 0.9992115369941755,
+      "tp": 39286,
+      "fp": 28,
+      "fn": 34,
+      "positive_image_mean_iou": 0.9986365443121415,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 9.873925284999132
+  },
+  {
+    "epoch": 16,
+    "loss": 0.0028060751807826912,
+    "validation": {
+      "iou": 0.9981712427929187,
+      "precision": 0.9987039390088945,
+      "recall": 0.9994659206510682,
+      "dice": 0.9990847845430278,
+      "tp": 39299,
+      "fp": 51,
+      "fn": 21,
+      "positive_image_mean_iou": 0.9984325238658667,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 10.495062558999052
+  },
+  {
+    "epoch": 17,
+    "loss": 0.002417909058031479,
+    "validation": {
+      "iou": 0.9985769103707657,
+      "precision": 0.9992117174388445,
+      "recall": 0.9993641912512716,
+      "dice": 0.9992879485288508,
+      "tp": 39295,
+      "fp": 31,
+      "fn": 25,
+      "positive_image_mean_iou": 0.9987237790331839,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 11.112565200999597
+  },
+  {
+    "epoch": 18,
+    "loss": 0.0021037632143002397,
+    "validation": {
+      "iou": 0.9983995122322994,
+      "precision": 0.9989070482677986,
+      "recall": 0.9994913530010173,
+      "dice": 0.9991991152129972,
+      "tp": 39300,
+      "fp": 43,
+      "fn": 20,
+      "positive_image_mean_iou": 0.9986221814553432,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 11.742323950000355
+  },
+  {
+    "epoch": 19,
+    "loss": 0.0021857764314566004,
+    "validation": {
+      "iou": 0.9987545433749333,
+      "precision": 0.9994150113182593,
+      "recall": 0.9993387589013225,
+      "dice": 0.9993768836552768,
+      "tp": 39294,
+      "fp": 23,
+      "fn": 26,
+      "positive_image_mean_iou": 0.9988913173799746,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 12.357477687999562
+  },
+  {
+    "epoch": 20,
+    "loss": 0.001693288343774743,
+    "validation": {
+      "iou": 0.998805317607585,
+      "precision": 0.9994658527279664,
+      "recall": 0.9993387589013225,
+      "dice": 0.9994023017740192,
+      "tp": 39294,
+      "fp": 21,
+      "fn": 26,
+      "positive_image_mean_iou": 0.998931965540684,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 13.003909856999599
+  },
+  {
+    "epoch": 21,
+    "loss": 0.0015005240795864282,
+    "validation": {
+      "iou": 0.9982729281487314,
+      "precision": 0.9986533868590883,
+      "recall": 0.999618514750763,
+      "dice": 0.9991357177355805,
+      "tp": 39305,
+      "fp": 53,
+      "fn": 15,
+      "positive_image_mean_iou": 0.9985229420240326,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 13.638439121999909
+  },
+  {
+    "epoch": 22,
+    "loss": 0.0016240054177806566,
+    "validation": {
+      "iou": 0.9990591226954864,
+      "precision": 0.9998727508716565,
+      "recall": 0.9991861648016277,
+      "dice": 0.9995293399310546,
+      "tp": 39288,
+      "fp": 5,
+      "fn": 32,
+      "positive_image_mean_iou": 0.9991958698380057,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 14.260094449999087
+  },
+  {
+    "epoch": 23,
+    "loss": 0.0014014512324999821,
+    "validation": {
+      "iou": 0.9979687182612228,
+      "precision": 0.9983743141637879,
+      "recall": 0.9995930824008138,
+      "dice": 0.9989833265555104,
+      "tp": 39304,
+      "fp": 64,
+      "fn": 16,
+      "positive_image_mean_iou": 0.998338199716719,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 14.884499510999376
+  },
+  {
+    "epoch": 24,
+    "loss": 0.001190514998406319,
+    "validation": {
+      "iou": 0.9981713821303398,
+      "precision": 0.9986279093403801,
+      "recall": 0.9995422177009156,
+      "dice": 0.9990848543393157,
+      "tp": 39302,
+      "fp": 54,
+      "fn": 18,
+      "positive_image_mean_iou": 0.9984329946237833,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 15.499467052999535
+  },
+  {
+    "epoch": 25,
+    "loss": 0.0009759935017332042,
+    "validation": {
+      "iou": 0.9987802398861557,
+      "precision": 0.9991864958307911,
+      "recall": 0.9995930824008138,
+      "dice": 0.9993897477624084,
+      "tp": 39304,
+      "fp": 32,
+      "fn": 16,
+      "positive_image_mean_iou": 0.9989451550819337,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 16.11701269200057
+  },
+  {
+    "epoch": 26,
+    "loss": 0.0008865131270508037,
+    "validation": {
+      "iou": 0.99918630966003,
+      "precision": 0.9998218920156735,
+      "recall": 0.9993641912512716,
+      "dice": 0.999592989239653,
+      "tp": 39295,
+      "fp": 7,
+      "fn": 25,
+      "positive_image_mean_iou": 0.9992636734493547,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 16.753027025999472
+  },
+  {
+    "epoch": 27,
+    "loss": 0.0008413670339474553,
+    "validation": {
+      "iou": 0.9984755710256866,
+      "precision": 0.9990085922009253,
+      "recall": 0.9994659206510682,
+      "dice": 0.9992372040987566,
+      "tp": 39299,
+      "fp": 39,
+      "fn": 21,
+      "positive_image_mean_iou": 0.9987181345303211,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 17.391394924999986
+  },
+  {
+    "epoch": 28,
+    "loss": 0.0007536161743030933,
+    "validation": {
+      "iou": 0.9989071593768267,
+      "precision": 0.9993135185985609,
+      "recall": 0.9995930824008138,
+      "dice": 0.9994532809500197,
+      "tp": 39304,
+      "fp": 27,
+      "fn": 16,
+      "positive_image_mean_iou": 0.999064309960598,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 18.011384989998987
+  },
+  {
+    "epoch": 29,
+    "loss": 0.0007073729541030174,
+    "validation": {
+      "iou": 0.9986783245221634,
+      "precision": 0.9993895615016787,
+      "recall": 0.9992878942014242,
+      "dice": 0.9993387252657816,
+      "tp": 39292,
+      "fp": 24,
+      "fn": 28,
+      "positive_image_mean_iou": 0.9988558184203182,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 18.626862327999334
+  },
+  {
+    "epoch": 30,
+    "loss": 0.0006649293569161704,
+    "validation": {
+      "iou": 0.9991862682771774,
+      "precision": 0.999872767061937,
+      "recall": 0.9993133265513734,
+      "dice": 0.9995929685313796,
+      "tp": 39293,
+      "fp": 5,
+      "fn": 27,
+      "positive_image_mean_iou": 0.9993270222046212,
+      "empty_images": 16,
+      "empty_images_with_any_false_positive": 0,
+      "empty_images_with_10plus_false_pixels": 0
+    },
+    "elapsed_s": 19.249987691999195
+  }
+]

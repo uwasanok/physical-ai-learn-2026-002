@@ -1,0 +1,2560 @@
+{
+  "selected_q_rad": [
+    1.6451363105819854,
+    -0.9575717886670071,
+    1.5752770513205097,
+    1.157281122633333,
+    0.6148855471270585,
+    2.0461870764615586
+  ],
+  "transitions": 318,
+  "valid": 318,
+  "checked_samples": 161956,
+  "records": [
+    {
+      "seed": 42,
+      "action": 1,
+      "endpoint": "before_approach",
+      "samples": 373,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 1,
+      "endpoint": "after_retract",
+      "samples": 338,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 2,
+      "endpoint": "before_approach",
+      "samples": 374,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 2,
+      "endpoint": "after_retract",
+      "samples": 338,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 3,
+      "endpoint": "before_approach",
+      "samples": 374,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 3,
+      "endpoint": "after_retract",
+      "samples": 338,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 4,
+      "endpoint": "before_approach",
+      "samples": 374,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 4,
+      "endpoint": "after_retract",
+      "samples": 338,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 5,
+      "endpoint": "before_approach",
+      "samples": 374,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 5,
+      "endpoint": "after_retract",
+      "samples": 338,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 6,
+      "endpoint": "before_approach",
+      "samples": 471,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 6,
+      "endpoint": "after_retract",
+      "samples": 589,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 7,
+      "endpoint": "before_approach",
+      "samples": 375,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 7,
+      "endpoint": "after_retract",
+      "samples": 450,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 8,
+      "endpoint": "before_approach",
+      "samples": 375,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 8,
+      "endpoint": "after_retract",
+      "samples": 450,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 9,
+      "endpoint": "before_approach",
+      "samples": 375,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 9,
+      "endpoint": "after_retract",
+      "samples": 450,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 10,
+      "endpoint": "before_approach",
+      "samples": 476,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 10,
+      "endpoint": "after_retract",
+      "samples": 595,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 11,
+      "endpoint": "before_approach",
+      "samples": 384,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 11,
+      "endpoint": "after_retract",
+      "samples": 451,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 12,
+      "endpoint": "before_approach",
+      "samples": 384,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 12,
+      "endpoint": "after_retract",
+      "samples": 451,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 13,
+      "endpoint": "before_approach",
+      "samples": 384,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 13,
+      "endpoint": "after_retract",
+      "samples": 451,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 14,
+      "endpoint": "before_approach",
+      "samples": 366,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 14,
+      "endpoint": "after_retract",
+      "samples": 371,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 15,
+      "endpoint": "before_approach",
+      "samples": 366,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 15,
+      "endpoint": "after_retract",
+      "samples": 371,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 16,
+      "endpoint": "before_approach",
+      "samples": 366,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 16,
+      "endpoint": "after_retract",
+      "samples": 371,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 17,
+      "endpoint": "before_approach",
+      "samples": 366,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 17,
+      "endpoint": "after_retract",
+      "samples": 371,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 18,
+      "endpoint": "before_approach",
+      "samples": 366,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 18,
+      "endpoint": "after_retract",
+      "samples": 371,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 19,
+      "endpoint": "before_approach",
+      "samples": 399,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 19,
+      "endpoint": "after_retract",
+      "samples": 479,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 20,
+      "endpoint": "before_approach",
+      "samples": 399,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 20,
+      "endpoint": "after_retract",
+      "samples": 479,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 21,
+      "endpoint": "before_approach",
+      "samples": 399,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 21,
+      "endpoint": "after_retract",
+      "samples": 479,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 22,
+      "endpoint": "before_approach",
+      "samples": 373,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 22,
+      "endpoint": "after_retract",
+      "samples": 342,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 23,
+      "endpoint": "before_approach",
+      "samples": 373,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 23,
+      "endpoint": "after_retract",
+      "samples": 342,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 24,
+      "endpoint": "before_approach",
+      "samples": 373,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 24,
+      "endpoint": "after_retract",
+      "samples": 342,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 25,
+      "endpoint": "before_approach",
+      "samples": 373,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 25,
+      "endpoint": "after_retract",
+      "samples": 342,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 26,
+      "endpoint": "before_approach",
+      "samples": 373,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 26,
+      "endpoint": "after_retract",
+      "samples": 342,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 27,
+      "endpoint": "before_approach",
+      "samples": 371,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 27,
+      "endpoint": "after_retract",
+      "samples": 361,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 28,
+      "endpoint": "before_approach",
+      "samples": 371,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 28,
+      "endpoint": "after_retract",
+      "samples": 361,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 29,
+      "endpoint": "before_approach",
+      "samples": 371,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 29,
+      "endpoint": "after_retract",
+      "samples": 361,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 30,
+      "endpoint": "before_approach",
+      "samples": 371,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 30,
+      "endpoint": "after_retract",
+      "samples": 361,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 31,
+      "endpoint": "before_approach",
+      "samples": 371,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 31,
+      "endpoint": "after_retract",
+      "samples": 361,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 32,
+      "endpoint": "before_approach",
+      "samples": 392,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 32,
+      "endpoint": "after_retract",
+      "samples": 487,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 33,
+      "endpoint": "before_approach",
+      "samples": 392,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 33,
+      "endpoint": "after_retract",
+      "samples": 487,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 34,
+      "endpoint": "before_approach",
+      "samples": 392,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 34,
+      "endpoint": "after_retract",
+      "samples": 487,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 35,
+      "endpoint": "before_approach",
+      "samples": 451,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 42,
+      "action": 35,
+      "endpoint": "after_retract",
+      "samples": 566,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 1,
+      "endpoint": "before_approach",
+      "samples": 370,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 1,
+      "endpoint": "after_retract",
+      "samples": 448,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 2,
+      "endpoint": "before_approach",
+      "samples": 370,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 2,
+      "endpoint": "after_retract",
+      "samples": 448,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 3,
+      "endpoint": "before_approach",
+      "samples": 370,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 3,
+      "endpoint": "after_retract",
+      "samples": 448,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 4,
+      "endpoint": "before_approach",
+      "samples": 370,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 4,
+      "endpoint": "after_retract",
+      "samples": 448,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 5,
+      "endpoint": "before_approach",
+      "samples": 370,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 5,
+      "endpoint": "after_retract",
+      "samples": 448,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 6,
+      "endpoint": "before_approach",
+      "samples": 471,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 6,
+      "endpoint": "after_retract",
+      "samples": 589,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 7,
+      "endpoint": "before_approach",
+      "samples": 471,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 7,
+      "endpoint": "after_retract",
+      "samples": 589,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 8,
+      "endpoint": "before_approach",
+      "samples": 471,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 8,
+      "endpoint": "after_retract",
+      "samples": 578,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 9,
+      "endpoint": "before_approach",
+      "samples": 359,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 9,
+      "endpoint": "after_retract",
+      "samples": 360,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 10,
+      "endpoint": "before_approach",
+      "samples": 375,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 10,
+      "endpoint": "after_retract",
+      "samples": 450,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 11,
+      "endpoint": "before_approach",
+      "samples": 375,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 11,
+      "endpoint": "after_retract",
+      "samples": 450,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 12,
+      "endpoint": "before_approach",
+      "samples": 375,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 12,
+      "endpoint": "after_retract",
+      "samples": 450,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 13,
+      "endpoint": "before_approach",
+      "samples": 375,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 13,
+      "endpoint": "after_retract",
+      "samples": 450,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 14,
+      "endpoint": "before_approach",
+      "samples": 375,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 14,
+      "endpoint": "after_retract",
+      "samples": 450,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 15,
+      "endpoint": "before_approach",
+      "samples": 477,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 15,
+      "endpoint": "after_retract",
+      "samples": 596,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 16,
+      "endpoint": "before_approach",
+      "samples": 477,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 16,
+      "endpoint": "after_retract",
+      "samples": 596,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 17,
+      "endpoint": "before_approach",
+      "samples": 477,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 17,
+      "endpoint": "after_retract",
+      "samples": 596,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 18,
+      "endpoint": "before_approach",
+      "samples": 470,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 18,
+      "endpoint": "after_retract",
+      "samples": 591,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 19,
+      "endpoint": "before_approach",
+      "samples": 470,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 19,
+      "endpoint": "after_retract",
+      "samples": 591,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 20,
+      "endpoint": "before_approach",
+      "samples": 470,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 20,
+      "endpoint": "after_retract",
+      "samples": 582,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 21,
+      "endpoint": "before_approach",
+      "samples": 350,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 21,
+      "endpoint": "after_retract",
+      "samples": 364,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 22,
+      "endpoint": "before_approach",
+      "samples": 383,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 22,
+      "endpoint": "after_retract",
+      "samples": 453,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 23,
+      "endpoint": "before_approach",
+      "samples": 383,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 23,
+      "endpoint": "after_retract",
+      "samples": 453,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 24,
+      "endpoint": "before_approach",
+      "samples": 383,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 24,
+      "endpoint": "after_retract",
+      "samples": 453,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 25,
+      "endpoint": "before_approach",
+      "samples": 383,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 25,
+      "endpoint": "after_retract",
+      "samples": 453,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 26,
+      "endpoint": "before_approach",
+      "samples": 383,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 123,
+      "action": 26,
+      "endpoint": "after_retract",
+      "samples": 453,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 1,
+      "endpoint": "before_approach",
+      "samples": 374,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 1,
+      "endpoint": "after_retract",
+      "samples": 343,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 2,
+      "endpoint": "before_approach",
+      "samples": 471,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 2,
+      "endpoint": "after_retract",
+      "samples": 589,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 3,
+      "endpoint": "before_approach",
+      "samples": 471,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 3,
+      "endpoint": "after_retract",
+      "samples": 589,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 4,
+      "endpoint": "before_approach",
+      "samples": 471,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 4,
+      "endpoint": "after_retract",
+      "samples": 589,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 5,
+      "endpoint": "before_approach",
+      "samples": 387,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 5,
+      "endpoint": "after_retract",
+      "samples": 437,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 6,
+      "endpoint": "before_approach",
+      "samples": 387,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 6,
+      "endpoint": "after_retract",
+      "samples": 437,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 7,
+      "endpoint": "before_approach",
+      "samples": 387,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 7,
+      "endpoint": "after_retract",
+      "samples": 437,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 8,
+      "endpoint": "before_approach",
+      "samples": 387,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 8,
+      "endpoint": "after_retract",
+      "samples": 437,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 9,
+      "endpoint": "before_approach",
+      "samples": 387,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 9,
+      "endpoint": "after_retract",
+      "samples": 437,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 10,
+      "endpoint": "before_approach",
+      "samples": 368,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 10,
+      "endpoint": "after_retract",
+      "samples": 365,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 11,
+      "endpoint": "before_approach",
+      "samples": 459,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 11,
+      "endpoint": "after_retract",
+      "samples": 575,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 12,
+      "endpoint": "before_approach",
+      "samples": 459,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 12,
+      "endpoint": "after_retract",
+      "samples": 575,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 13,
+      "endpoint": "before_approach",
+      "samples": 459,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 13,
+      "endpoint": "after_retract",
+      "samples": 575,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 14,
+      "endpoint": "before_approach",
+      "samples": 403,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 14,
+      "endpoint": "after_retract",
+      "samples": 466,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 15,
+      "endpoint": "before_approach",
+      "samples": 403,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 15,
+      "endpoint": "after_retract",
+      "samples": 466,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 16,
+      "endpoint": "before_approach",
+      "samples": 403,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 16,
+      "endpoint": "after_retract",
+      "samples": 466,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 17,
+      "endpoint": "before_approach",
+      "samples": 403,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 17,
+      "endpoint": "after_retract",
+      "samples": 466,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 18,
+      "endpoint": "before_approach",
+      "samples": 403,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 18,
+      "endpoint": "after_retract",
+      "samples": 466,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 19,
+      "endpoint": "before_approach",
+      "samples": 390,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 19,
+      "endpoint": "after_retract",
+      "samples": 434,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 20,
+      "endpoint": "before_approach",
+      "samples": 390,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 20,
+      "endpoint": "after_retract",
+      "samples": 434,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 21,
+      "endpoint": "before_approach",
+      "samples": 390,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 21,
+      "endpoint": "after_retract",
+      "samples": 434,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 22,
+      "endpoint": "before_approach",
+      "samples": 390,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 22,
+      "endpoint": "after_retract",
+      "samples": 434,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 23,
+      "endpoint": "before_approach",
+      "samples": 390,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 23,
+      "endpoint": "after_retract",
+      "samples": 434,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 24,
+      "endpoint": "before_approach",
+      "samples": 368,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 24,
+      "endpoint": "after_retract",
+      "samples": 368,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 25,
+      "endpoint": "before_approach",
+      "samples": 385,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 25,
+      "endpoint": "after_retract",
+      "samples": 445,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 26,
+      "endpoint": "before_approach",
+      "samples": 385,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 26,
+      "endpoint": "after_retract",
+      "samples": 445,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 27,
+      "endpoint": "before_approach",
+      "samples": 385,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 27,
+      "endpoint": "after_retract",
+      "samples": 445,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 28,
+      "endpoint": "before_approach",
+      "samples": 385,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 28,
+      "endpoint": "after_retract",
+      "samples": 445,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 29,
+      "endpoint": "before_approach",
+      "samples": 385,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 29,
+      "endpoint": "after_retract",
+      "samples": 445,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 30,
+      "endpoint": "before_approach",
+      "samples": 402,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 30,
+      "endpoint": "after_retract",
+      "samples": 454,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 31,
+      "endpoint": "before_approach",
+      "samples": 402,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 31,
+      "endpoint": "after_retract",
+      "samples": 454,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 32,
+      "endpoint": "before_approach",
+      "samples": 402,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 32,
+      "endpoint": "after_retract",
+      "samples": 454,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 33,
+      "endpoint": "before_approach",
+      "samples": 402,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 33,
+      "endpoint": "after_retract",
+      "samples": 454,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 34,
+      "endpoint": "before_approach",
+      "samples": 402,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 34,
+      "endpoint": "after_retract",
+      "samples": 454,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 35,
+      "endpoint": "before_approach",
+      "samples": 449,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 35,
+      "endpoint": "after_retract",
+      "samples": 562,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 36,
+      "endpoint": "before_approach",
+      "samples": 449,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 36,
+      "endpoint": "after_retract",
+      "samples": 562,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 37,
+      "endpoint": "before_approach",
+      "samples": 449,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 999,
+      "action": 37,
+      "endpoint": "after_retract",
+      "samples": 562,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 1,
+      "endpoint": "before_approach",
+      "samples": 493,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 1,
+      "endpoint": "after_retract",
+      "samples": 608,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 2,
+      "endpoint": "before_approach",
+      "samples": 493,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 2,
+      "endpoint": "after_retract",
+      "samples": 608,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 3,
+      "endpoint": "before_approach",
+      "samples": 493,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 3,
+      "endpoint": "after_retract",
+      "samples": 608,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 4,
+      "endpoint": "before_approach",
+      "samples": 493,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 4,
+      "endpoint": "after_retract",
+      "samples": 608,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 5,
+      "endpoint": "before_approach",
+      "samples": 493,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 5,
+      "endpoint": "after_retract",
+      "samples": 608,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 6,
+      "endpoint": "before_approach",
+      "samples": 373,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 6,
+      "endpoint": "after_retract",
+      "samples": 450,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 7,
+      "endpoint": "before_approach",
+      "samples": 368,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 7,
+      "endpoint": "after_retract",
+      "samples": 366,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 8,
+      "endpoint": "before_approach",
+      "samples": 368,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 8,
+      "endpoint": "after_retract",
+      "samples": 366,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 9,
+      "endpoint": "before_approach",
+      "samples": 368,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 9,
+      "endpoint": "after_retract",
+      "samples": 366,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 10,
+      "endpoint": "before_approach",
+      "samples": 381,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 10,
+      "endpoint": "after_retract",
+      "samples": 452,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 11,
+      "endpoint": "before_approach",
+      "samples": 456,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 11,
+      "endpoint": "after_retract",
+      "samples": 576,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 12,
+      "endpoint": "before_approach",
+      "samples": 456,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 12,
+      "endpoint": "after_retract",
+      "samples": 576,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 13,
+      "endpoint": "before_approach",
+      "samples": 456,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 13,
+      "endpoint": "after_retract",
+      "samples": 576,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 14,
+      "endpoint": "before_approach",
+      "samples": 456,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 14,
+      "endpoint": "after_retract",
+      "samples": 576,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 15,
+      "endpoint": "before_approach",
+      "samples": 456,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 15,
+      "endpoint": "after_retract",
+      "samples": 576,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 16,
+      "endpoint": "before_approach",
+      "samples": 458,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 16,
+      "endpoint": "after_retract",
+      "samples": 579,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 17,
+      "endpoint": "before_approach",
+      "samples": 458,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 17,
+      "endpoint": "after_retract",
+      "samples": 579,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 18,
+      "endpoint": "before_approach",
+      "samples": 458,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 18,
+      "endpoint": "after_retract",
+      "samples": 579,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 19,
+      "endpoint": "before_approach",
+      "samples": 458,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 19,
+      "endpoint": "after_retract",
+      "samples": 579,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 20,
+      "endpoint": "before_approach",
+      "samples": 458,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 20,
+      "endpoint": "after_retract",
+      "samples": 573,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 21,
+      "endpoint": "before_approach",
+      "samples": 356,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 21,
+      "endpoint": "after_retract",
+      "samples": 369,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 22,
+      "endpoint": "before_approach",
+      "samples": 359,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 22,
+      "endpoint": "after_retract",
+      "samples": 369,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 23,
+      "endpoint": "before_approach",
+      "samples": 359,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 23,
+      "endpoint": "after_retract",
+      "samples": 369,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 24,
+      "endpoint": "before_approach",
+      "samples": 349,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 24,
+      "endpoint": "after_retract",
+      "samples": 382,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 25,
+      "endpoint": "before_approach",
+      "samples": 349,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 25,
+      "endpoint": "after_retract",
+      "samples": 382,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 26,
+      "endpoint": "before_approach",
+      "samples": 349,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 26,
+      "endpoint": "after_retract",
+      "samples": 382,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 27,
+      "endpoint": "before_approach",
+      "samples": 370,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 27,
+      "endpoint": "after_retract",
+      "samples": 454,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 28,
+      "endpoint": "before_approach",
+      "samples": 432,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 28,
+      "endpoint": "after_retract",
+      "samples": 546,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 29,
+      "endpoint": "before_approach",
+      "samples": 432,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 29,
+      "endpoint": "after_retract",
+      "samples": 546,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 30,
+      "endpoint": "before_approach",
+      "samples": 432,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 30,
+      "endpoint": "after_retract",
+      "samples": 546,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 31,
+      "endpoint": "before_approach",
+      "samples": 432,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 31,
+      "endpoint": "after_retract",
+      "samples": 546,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 32,
+      "endpoint": "before_approach",
+      "samples": 432,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 2026,
+      "action": 32,
+      "endpoint": "after_retract",
+      "samples": 546,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 1,
+      "endpoint": "before_approach",
+      "samples": 459,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 1,
+      "endpoint": "after_retract",
+      "samples": 580,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 2,
+      "endpoint": "before_approach",
+      "samples": 459,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 2,
+      "endpoint": "after_retract",
+      "samples": 580,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 3,
+      "endpoint": "before_approach",
+      "samples": 459,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 3,
+      "endpoint": "after_retract",
+      "samples": 580,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 4,
+      "endpoint": "before_approach",
+      "samples": 459,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 4,
+      "endpoint": "after_retract",
+      "samples": 580,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 5,
+      "endpoint": "before_approach",
+      "samples": 459,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 5,
+      "endpoint": "after_retract",
+      "samples": 562,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 6,
+      "endpoint": "before_approach",
+      "samples": 378,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 6,
+      "endpoint": "after_retract",
+      "samples": 343,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 7,
+      "endpoint": "before_approach",
+      "samples": 456,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 7,
+      "endpoint": "after_retract",
+      "samples": 576,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 8,
+      "endpoint": "before_approach",
+      "samples": 456,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 8,
+      "endpoint": "after_retract",
+      "samples": 576,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 9,
+      "endpoint": "before_approach",
+      "samples": 456,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 9,
+      "endpoint": "after_retract",
+      "samples": 576,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 10,
+      "endpoint": "before_approach",
+      "samples": 456,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 10,
+      "endpoint": "after_retract",
+      "samples": 576,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 11,
+      "endpoint": "before_approach",
+      "samples": 456,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 11,
+      "endpoint": "after_retract",
+      "samples": 576,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 12,
+      "endpoint": "before_approach",
+      "samples": 387,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 12,
+      "endpoint": "after_retract",
+      "samples": 437,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 13,
+      "endpoint": "before_approach",
+      "samples": 387,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 13,
+      "endpoint": "after_retract",
+      "samples": 437,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 14,
+      "endpoint": "before_approach",
+      "samples": 387,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 14,
+      "endpoint": "after_retract",
+      "samples": 437,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 15,
+      "endpoint": "before_approach",
+      "samples": 368,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 15,
+      "endpoint": "after_retract",
+      "samples": 366,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 16,
+      "endpoint": "before_approach",
+      "samples": 402,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 16,
+      "endpoint": "after_retract",
+      "samples": 464,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 17,
+      "endpoint": "before_approach",
+      "samples": 402,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 17,
+      "endpoint": "after_retract",
+      "samples": 464,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 18,
+      "endpoint": "before_approach",
+      "samples": 402,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 18,
+      "endpoint": "after_retract",
+      "samples": 464,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 19,
+      "endpoint": "before_approach",
+      "samples": 390,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 19,
+      "endpoint": "after_retract",
+      "samples": 434,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 20,
+      "endpoint": "before_approach",
+      "samples": 390,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 20,
+      "endpoint": "after_retract",
+      "samples": 434,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 21,
+      "endpoint": "before_approach",
+      "samples": 390,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 21,
+      "endpoint": "after_retract",
+      "samples": 434,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 22,
+      "endpoint": "before_approach",
+      "samples": 384,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 22,
+      "endpoint": "after_retract",
+      "samples": 443,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 23,
+      "endpoint": "before_approach",
+      "samples": 384,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 23,
+      "endpoint": "after_retract",
+      "samples": 443,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 24,
+      "endpoint": "before_approach",
+      "samples": 384,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 24,
+      "endpoint": "after_retract",
+      "samples": 443,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 25,
+      "endpoint": "before_approach",
+      "samples": 445,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 25,
+      "endpoint": "after_retract",
+      "samples": 552,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 26,
+      "endpoint": "before_approach",
+      "samples": 445,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 26,
+      "endpoint": "after_retract",
+      "samples": 552,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 27,
+      "endpoint": "before_approach",
+      "samples": 445,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 27,
+      "endpoint": "after_retract",
+      "samples": 552,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 28,
+      "endpoint": "before_approach",
+      "samples": 445,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 28,
+      "endpoint": "after_retract",
+      "samples": 552,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 29,
+      "endpoint": "before_approach",
+      "samples": 445,
+      "valid": true,
+      "collisions": []
+    },
+    {
+      "seed": 53772,
+      "action": 29,
+      "endpoint": "after_retract",
+      "samples": 552,
+      "valid": true,
+      "collisions": []
+    }
+  ],
+  "scope": "lift tip to z=0.65m then rotate; max 0.25 deg; reversible geometry only; no dynamics"
+}

@@ -1,0 +1,41 @@
+{
+  "status": "kinematics_verified_collision_screen_only",
+  "robot": "UR5e",
+  "source_commit": "7ce98d8c3512b9d0239da93b75de68ea64f61bd6",
+  "base_xyz_m": [
+    0.0,
+    -0.52,
+    0.55
+  ],
+  "tool_offset_tool0_m": [
+    0,
+    0,
+    0.18
+  ],
+  "samples": 3360,
+  "actions": 32,
+  "max_position_error_m": 5.797079401407986e-11,
+  "max_orientation_error_deg": 1.5388191598246248e-08,
+  "all_joint_limits_satisfied": true,
+  "max_within_stroke_joint_step_deg": 0.3170622954094267,
+  "max_between_stroke_joint_jump_deg": 69.02628513512968,
+  "bowl_vertex_penetration_frames": 0,
+  "cabinet_vertex_penetration_frames": 0,
+  "initial_ik_solutions": 16,
+  "joint_names": [
+    "shoulder_pan_joint",
+    "shoulder_lift_joint",
+    "elbow_joint",
+    "wrist_1_joint",
+    "wrist_2_joint",
+    "wrist_3_joint"
+  ],
+  "fk_driven_remaining_cells": 0,
+  "limitations": [
+    "no self-collision or exact triangle collision validation",
+    "vertex screening can miss intersections",
+    "between-stroke transfer paths not planned",
+    "no velocity acceleration torque or physical calibration validation",
+    "default manufacturer kinematics, not a calibrated physical serial number"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "roi_uv_m": [
+    [
+      -0.11,
+      0.11
+    ],
+    [
+      0.025,
+      0.155
+    ]
+  ],
+  "grid_points": 1904,
+  "visible_points": 1904,
+  "full_inner_points": 8323,
+  "full_inner_visible_points": 5558,
+  "scope": "fixed camera versus bowl/rim; arm occlusion not included"
+}

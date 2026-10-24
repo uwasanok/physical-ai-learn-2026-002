@@ -1,0 +1,62 @@
+{
+  "status": "all_discrete_samples_collision_checked",
+  "actions": 32,
+  "samples": 13793,
+  "frames": 1959,
+  "max_joint_step_deg": 0.24986869622718877,
+  "duration_s": 275.8400000000391,
+  "planned_joint_speed_limit_deg_s": 15,
+  "remaining_cells": 0,
+  "collision_queries": 13793,
+  "transfers": 31,
+  "rejected_candidates": 0,
+  "phase_counts": {
+    "approach": 2573,
+    "clean": 4739,
+    "retract": 2565,
+    "start": 1,
+    "transfer": 3915
+  },
+  "allowed_self_pairs": [
+    [
+      "base_link_inertia",
+      "shoulder_link"
+    ],
+    [
+      "shoulder_link",
+      "upper_arm_link"
+    ],
+    [
+      "brush",
+      "shaft"
+    ],
+    [
+      "wrist_2_link",
+      "wrist_3_link"
+    ],
+    [
+      "forearm_link",
+      "wrist_1_link"
+    ],
+    [
+      "forearm_link",
+      "upper_arm_link"
+    ],
+    [
+      "shaft",
+      "wrist_3_link"
+    ],
+    [
+      "wrist_1_link",
+      "wrist_2_link"
+    ]
+  ],
+  "limitations": [
+    "discrete sampling not mathematical continuous collision proof",
+    "mesh containment and discretization limitations; simplified toilet/cabinet/camera geometry",
+    "adjacent mechanical links excluded; base/cabinet mounting excluded",
+    "brush/bowl contact allowed only near target with aligned pose during approach/clean/retract",
+    "no acceleration torque force or real robot validation",
+    "seed42 only; starts at a verified standoff pose"
+  ]
+}

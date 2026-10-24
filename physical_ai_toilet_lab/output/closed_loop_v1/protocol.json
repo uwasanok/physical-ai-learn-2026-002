@@ -1,0 +1,35 @@
+{
+  "cases": [
+    {
+      "name": "random_410001",
+      "seed": 410001,
+      "max_actions": 100
+    },
+    {
+      "name": "random_410002",
+      "seed": 410002,
+      "max_actions": 100
+    },
+    {
+      "name": "random_410003",
+      "seed": 410003,
+      "max_actions": 100
+    },
+    {
+      "name": "empty",
+      "seed": 410004,
+      "empty": true,
+      "max_actions": 10
+    },
+    {
+      "name": "hard_budget",
+      "seed": 410001,
+      "required": 999,
+      "max_actions": 3
+    }
+  ],
+  "model_sha256": "520025c9a0a0caad2461c2c378295eaf1abb2ed6cddf217571e52e5b4de5b500",
+  "threshold": 0.4,
+  "policy": "Frozen model; no retuning on closed-loop scenes; 100-action cap; stop on rejected path",
+  "pass_criterion": "random scenes: observed clear AND evaluation remaining=0; empty: no actions; hard: budget stop without false clear"
+}

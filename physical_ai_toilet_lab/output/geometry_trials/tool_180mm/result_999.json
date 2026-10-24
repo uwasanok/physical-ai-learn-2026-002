@@ -1,0 +1,50 @@
+{
+  "seed": 999,
+  "role": "development",
+  "camera_status": "observed_roi_clear",
+  "camera_residual": 0.0,
+  "cleaning_actions": 37,
+  "dirty_cells": 167,
+  "visible_dirty_cells": 167,
+  "patches": [
+    {
+      "center_uv_m": [
+        -0.07024402190679982,
+        0.10495009554146395
+      ],
+      "radius_uv_m": [
+        0.018002680622232235,
+        0.01336887261486394
+      ],
+      "required_passes": 1
+    },
+    {
+      "center_uv_m": [
+        0.006430792973075293,
+        0.06492470792443755
+      ],
+      "radius_uv_m": [
+        0.016889829637283936,
+        0.0192875449575268
+      ],
+      "required_passes": 5
+    },
+    {
+      "center_uv_m": [
+        0.06005237236095687,
+        0.09401799314247816
+      ],
+      "radius_uv_m": [
+        0.016896509449897616,
+        0.01610343482776292
+      ],
+      "required_passes": 3
+    }
+  ],
+  "tool_length_m": 0.18,
+  "status": "rejected",
+  "reason": "approach: wrist_1_link / rim",
+  "partial_samples": 1,
+  "collision_queries": 63,
+  "attempts": []
+}

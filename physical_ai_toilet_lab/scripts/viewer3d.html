@@ -1,0 +1,54 @@
+<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>曲面清掃 — 3D座標とブラシ姿勢</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font:15px system-ui,sans-serif;background:#101b27;color:#e5eff6}header{padding:20px 26px;background:#172737}h1{font-size:23px;margin:0 0 8px}p{margin:6px 0;line-height:1.6;color:#b9ccda}main{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:16px;padding:18px}canvas{width:100%;height:65vh;min-height:400px;background:#edf3f6;border-radius:12px;touch-action:none;cursor:grab}aside{background:#192c3c;border-radius:12px;padding:20px}button{padding:10px 15px;border:0;border-radius:6px;background:#367f92;color:white;cursor:pointer;margin:4px}input{width:100%;margin:15px 0}pre{font:15px ui-monospace,monospace;line-height:1.7;color:#a9e5d1;white-space:pre-wrap}.note{font-size:13px}strong{color:#fff}@media(max-width:800px){main{grid-template-columns:1fr}canvas{height:55vh}}
+</style>
+<header><h1>曲面上の汚れを、3D座標と向きでこする</h1><p>ドラッグで回転・ホイールで拡大。茶：残った汚れ／緑：ブラシと軸／赤：現在の清掃軌跡。</p></header>
+<main><section><canvas id="view"></canvas><div><button id="play">▶ 再生</button><button id="reset">視点を戻す</button><button id="overview">筐体・カメラも表示</button></div><input id="time" aria-label="清掃の進行" type="range" min="0" value="0"><p id="stage"></p></section>
+<aside><strong>ブラシ先端の実際の座標</strong><pre id="pose"></pre><strong>今回の範囲</strong><p class="note">カメラ画像から選んだ位置を3Dに変換し、曲面に沿う先端位置と姿勢を計算。清掃判定もxyzと向きを使用しています。</p><p class="note">ブラシは向きのある円板と軸で表示。アームの関節・可動域・力学はまだありません。</p><p class="note">便器は仮の凹面です。実製品の3Dメッシュではありません。動作間の退避・移動は省略し、こすり区間を再生します。</p><p class="note">カメラ視点ではなく、検証用の自由視点です。表示用の汚れ真値を制御へ渡してはいません。</p></aside></main>
+<script>
+const data=__SCENE_DATA__;
+const canvas=document.getElementById('view'),ctx=canvas.getContext('2d'),slider=document.getElementById('time');
+let yaw=-.65,pitch=.65,zoom=1,wide=!!data.arm_meshes,playing=false,index=0,drag=null,playTime=0;
+if(data.arm_meshes){document.querySelector('h1').textContent='UR5eの公式モデルで、曲面清掃の関節動作を確認';document.querySelector('aside').insertAdjacentHTML('beforeend','<strong>UR5e：今回の検証</strong><p class="note">公式URDFと衝突形状メッシュを表示。清掃区間の逆運動学と関節制限を確認済み。自己衝突・厳密な形状干渉・区間間の移動経路は未検証です。実機向け軌道ではありません。</p>');document.querySelectorAll('aside .note')[1].textContent='UR5eの各リンクを公式衝突形状で表示。外観用メッシュと細部は異なります。ブラシ長は仮に180mmです。';document.querySelectorAll('aside .note')[2].textContent='便器は仮の凹面です。動作間の退避・移動は未計画のため、表示が次の清掃位置へ切り替わります。';}
+slider.max=data.frames.length-1;
+if(data.continuous){document.querySelector('h1').textContent='UR5e：退避・移動・接近をつないだ曲面清掃';const notes=document.querySelectorAll('aside .note');notes[2].textContent='清掃の間に退避・移動・接近を挿入。全保存サンプルでFCLによる自己衝突・環境衝突検査を行いました。関節刻みは最大0.25度。連続時間の無衝突を数学的に保証するものではありません。';notes[4].textContent='隣接する機械部品、台への固定部、条件を満たすブラシと清掃面の接触を例外にしています。加速度・力・実機動作は未評価です。再生は予定時間の約3倍速です。';}
+if(data.geometry_version){document.querySelector('h1').textContent='内壁・底・縁を持つ便器モデル：UR5eの清掃';document.querySelectorAll('aside .note')[1].textContent=`ブラシ長 ${Math.round(data.arm_verification.tool_offset_tool0_m[2]*1000)}mm。180mmの案では縁と手首の干渉が見つかり、柄を延長して比較しました。`;document.querySelectorAll('aside .note')[3].textContent='形状は設計用の仮モデルで、メーカーCADではありません。汚れは固定カメラから見える奥側に限定。アームによるカメラ遮蔽は未評価です。';}
+if(data.observation_run){document.querySelector('h1').textContent='撮影用の退避を組み込んだUR5eの清掃';document.querySelectorAll('aside .note')[3].textContent='撮影前に先端を高さ650mmへ上げ、横へ退避します。撮影姿勢では対象範囲へのアームの映り込みを検査済み。右の画像は最後に撮影した固定カメラ画像です。';document.querySelector('aside').insertAdjacentHTML('beforeend','<strong>最後の撮影画像</strong><img id="camera-frame" alt="固定俯瞰カメラ" style="width:100%;margin-top:8px"><p id="camera-time" class="note"></p>');}
+const add=(a,b)=>a.map((v,i)=>v+b[i]),mul=(a,s)=>a.map(v=>v*s);
+if(data.observation_run&&data.observation_run.name){document.querySelector('h1').textContent='学習した画像AIで、見て・こすって・見直す';document.querySelectorAll('aside .note')[0].textContent='小型U-Netの汚れマスクだけから次の清掃位置を選びます。既知の曲面で3D座標に変換し、逆運動学と衝突検査で毎回の経路を計算。右画像のピンクはAIの検出です。';}
+function project(p){const center=wide?[0,-.2,.45]:[0,0,.33],q=p.map((v,i)=>v-center[i]);
+ const x=Math.cos(yaw)*q[0]-Math.sin(yaw)*q[1],y=Math.sin(yaw)*q[0]+Math.cos(yaw)*q[1];
+ const vertical=Math.cos(pitch)*q[2]-Math.sin(pitch)*y,depth=Math.cos(pitch)*y+Math.sin(pitch)*q[2];
+ const scale=Math.min(canvas.width,canvas.height)*zoom/(wide?1.15:.57);
+ return [canvas.width/2+x*scale,canvas.height/2-vertical*scale,depth];}
+function render(){const rect=canvas.getBoundingClientRect();canvas.width=Math.round(rect.width*devicePixelRatio);canvas.height=Math.round(rect.height*devicePixelRatio);ctx.clearRect(0,0,canvas.width,canvas.height);
+ const f=data.frames[index],items=[];
+ function poly(points,color,stroke){const p=points.map(project);items.push({z:p.reduce((a,q)=>a+q[2],0)/p.length,draw(){ctx.beginPath();p.forEach((q,i)=>i?ctx.lineTo(q[0],q[1]):ctx.moveTo(q[0],q[1]));ctx.closePath();ctx.fillStyle=color;ctx.fill();if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=.5*devicePixelRatio;ctx.stroke();}}});}
+ function line(a,b,color,width=2){const p=project(a),q=project(b);items.push({z:(p[2]+q[2])/2,draw(){ctx.beginPath();ctx.moveTo(...p.slice(0,2));ctx.lineTo(...q.slice(0,2));ctx.strokeStyle=color;ctx.lineWidth=width*devicePixelRatio;ctx.stroke();}});}
+ function dot(p,color,r){const q=project(p);items.push({z:q[2]+.0002,draw(){ctx.beginPath();ctx.arc(q[0],q[1],r*devicePixelRatio*zoom,0,Math.PI*2);ctx.fillStyle=color;ctx.fill();}});}
+ function bowl(r,t){return [.18*r*Math.cos(t),.24*r*Math.sin(t),.22+.18*r*r];}
+ if(data.arm_meshes){for(const mesh of data.arm_meshes){const T=f.arm[mesh.link];const transform=p=>T.slice(0,3).map(row=>row[0]*p[0]+row[1]*p[1]+row[2]*p[2]+row[3]);for(const tri of mesh.triangles){const pts=tri.map(transform),a=pts[1].map((v,i)=>v-pts[0][i]),b=pts[2].map((v,i)=>v-pts[0][i]);const nz=a[0]*b[1]-a[1]*b[0],len=Math.hypot(a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],nz);const shade=.55+.45*Math.abs(nz/(len||1));const base=mesh.link.includes('arm')?[176,191,198]:[93,153,185];poly(pts,`rgb(${base.map(v=>Math.round(v*shade)).join(',')})`);}}}
+ if(data.bowl_mesh){for(const tri of data.bowl_mesh)poly(tri,'#dce6ec','#c5d2da');for(const tri of data.rim_mesh)poly(tri,'#f5fafb','#d5e0e5');}else{for(let j=0;j<18;j++)for(let k=0;k<64;k++){let t=k*Math.PI/32,s=(k+1)*Math.PI/32;poly([bowl(j/18,t),bowl((j+1)/18,t),bowl((j+1)/18,s),bowl(j/18,s)],'#dce6ec','#b7cbd6');}}
+ for(const id of f.remaining)dot(data.dirt[id],'#965027',wide?1.2:2.7);
+ const origin=[-.22,-.28,.20];for(const [v,c,label] of [[[.09,0,0],'#c63b57','X'],[[0,.09,0],'#37844e','Y'],[[0,0,.09],'#3279c5','Z']]){line(origin,add(origin,v),c);const p=project(add(origin,v));items.push({z:2,draw(){ctx.fillStyle=c;ctx.font=`${14*devicePixelRatio}px sans-serif`;ctx.fillText(label,p[0],p[1]);}});}
+ for(let i=Math.max(1,index-22);i<=index;i++)if(data.frames[i-1].action===f.action&&data.frames[i].action===f.action&&(!data.continuous||(data.frames[i-1].phase==='clean'&&data.frames[i].phase==='clean')))line(data.frames[i-1].xyz,data.frames[i].xyz,'#df315d',3);
+ const [tx,ty,n]=f.rotation,p=add(f.xyz,mul(n,.002));const circle=[];
+ for(let i=0;i<32;i++){let a=i*Math.PI/16;circle.push(add(p,add(mul(tx,.012*Math.cos(a)),mul(ty,.012*Math.sin(a)))));}
+ const shaft=data.arm_meshes?data.arm_verification.tool_offset_tool0_m[2]:.09;
+ poly(circle,'#47c3a1','#086f5b');line(p,add(p,mul(n,shaft)),'#127f68',6);dot(add(p,mul(n,shaft)),'#124b4b',4);
+ if(wide){const cam=[0,-.65,1],corners=[];for(const z of [0,data.arm_meshes?.55:.65])for(const y of (data.arm_meshes?[-.75,-.30]:[-.82,-.53]))for(const x of (data.arm_meshes?[-.22,.22]:[-.17,.17]))corners.push([x,y,z]);for(let i=0;i<8;i++)for(const bit of [1,2,4])if(!(i&bit))line(corners[i],corners[i|bit],'#7a8fa0',1);dot(cam,'#235ca7',6);line(cam,[0,.035,.30],'#4d80ba',1);}
+ items.sort((a,b)=>a.z-b.z);items.forEach(it=>it.draw());
+ document.getElementById('pose').textContent=`x = ${f.xyz[0].toFixed(4)} m\ny = ${f.xyz[1].toFixed(4)} m\nz = ${f.xyz[2].toFixed(4)} m\n\n面の法線（軸の向き）\n${n.map(v=>v.toFixed(3)).join(', ')}\n\n鉛直からの傾き\n${(Math.acos(Math.max(-1,Math.min(1,n[2])))*180/Math.PI).toFixed(1)}°`;
+ document.getElementById('stage').textContent=`清掃動作 ${f.action} / ${data.metrics.cleaning_actions}　残った汚れ区画 ${f.remaining.length} / ${data.dirt.length}　（表示・採点用の真値）`;slider.value=index;
+ if(f.joints_deg)document.getElementById('pose').textContent+='\n\nUR5e 関節角度 [deg]\n'+f.joints_deg.map((v,i)=>`J${i+1} = ${v.toFixed(1)}`).join('\n');
+ if(data.continuous){const names={start:'開始待機',approach:'接近',clean:'清掃',retract:'退避',transfer:'場所の切り替え',observation_move:'撮影姿勢への移動／復帰',observe:'撮影'};document.getElementById('stage').textContent=`${names[f.phase]} ｜ 清掃 ${f.action}/${data.metrics.cleaning_actions} ｜ 予定時刻 ${f.time_s.toFixed(1)}秒 ｜ 残留区画 ${f.remaining.length}`;if(wide){const a=project([0,-.65,.55]),b=project([0,-.65,.98]);ctx.beginPath();ctx.moveTo(a[0],a[1]);ctx.lineTo(b[0],b[1]);ctx.strokeStyle='#8296a4';ctx.lineWidth=3*devicePixelRatio;ctx.stroke();}}
+ if(data.observation_run&&f.observation>=0){const capture=data.camera_captures[f.observation];document.getElementById('camera-frame').src=capture.image;document.getElementById('camera-time').textContent=`撮影 ${f.observation+1} / ${data.camera_captures.length} ・ ${capture.time_s.toFixed(1)}秒`;} 
+}
+canvas.onpointerdown=e=>{drag=[e.clientX,e.clientY];canvas.setPointerCapture(e.pointerId)};
+canvas.onpointermove=e=>{if(!drag)return;yaw+=(e.clientX-drag[0])*.009;pitch=Math.max(-1.4,Math.min(1.5,pitch+(e.clientY-drag[1])*.009));drag=[e.clientX,e.clientY];render()};canvas.onpointerup=()=>drag=null;
+canvas.onwheel=e=>{e.preventDefault();zoom=Math.max(.4,Math.min(4,zoom*Math.exp(-e.deltaY*.001)));render()};
+slider.oninput=()=>{index=+slider.value;playTime=data.frames[index].time_s||0;render()};document.getElementById('reset').onclick=()=>{yaw=-.65;pitch=.65;zoom=1;render()};
+document.getElementById('overview').onclick=()=>{wide=!wide;render()};document.getElementById('play').onclick=()=>{if(data.continuous&&index===data.frames.length-1)index=0;playTime=data.frames[index].time_s||0;playing=!playing;document.getElementById('play').textContent=playing?'一時停止':'▶ 再生'};
+setInterval(()=>{if(playing){if(data.continuous){playTime+=.21;while(index<data.frames.length-1&&data.frames[index+1].time_s<=playTime)index++;if(index===data.frames.length-1){playing=false;document.getElementById('play').textContent='▶ 再生';}}else{index=(index+1)%data.frames.length;}render()}},70);window.onresize=render;render();
+</script></html>

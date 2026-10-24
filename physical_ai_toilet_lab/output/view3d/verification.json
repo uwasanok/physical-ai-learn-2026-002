@@ -1,0 +1,28 @@
+{
+  "coordinates": "world xyz metres; tool axes are rotation columns",
+  "seed": 42,
+  "cleaning_actions": 32,
+  "pose_samples": 3360,
+  "xyz_min_m": [
+    -0.09422606782228943,
+    0.06838491704611616,
+    0.24119660794649708
+  ],
+  "xyz_max_m": [
+    0.10424545701002211,
+    0.12673319104533354,
+    0.3185597756101126
+  ],
+  "max_surface_error_m": 0.0,
+  "tilt_min_max_deg": [
+    28.4738604828698,
+    52.53130162303261
+  ],
+  "remaining_cells": 0,
+  "limitations": [
+    "height-field bowl, not manufacturer mesh",
+    "ideal tool motion, no robot IK",
+    "simplified geometric contact",
+    "transfers between strokes omitted from animation"
+  ]
+}

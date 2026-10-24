@@ -1,0 +1,35 @@
+{
+  "duration_s": 95,
+  "source": "saved online joint trajectory",
+  "speed": 2,
+  "segments": [
+    {
+      "source_start_s": 1.0,
+      "source_end_s": 31.0
+    },
+    {
+      "source_start_s": 100.0,
+      "source_end_s": 130.0
+    },
+    {
+      "source_start_s": 250.0,
+      "source_end_s": 280.0
+    },
+    {
+      "source_start_s": 400.0,
+      "source_end_s": 430.0
+    },
+    {
+      "source_start_s": 550.4799999997704,
+      "source_end_s": 580.4799999997704
+    }
+  ],
+  "cuts": "gaps omitted between segments",
+  "intro_s": 10,
+  "final_still_s": 5,
+  "outro_s": 5,
+  "render_fps": 5,
+  "encoded_fps": 10,
+  "real_robot": false,
+  "dynamics": false
+}

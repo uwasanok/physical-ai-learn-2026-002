@@ -1,0 +1,103 @@
+{
+  "name": "hard_budget",
+  "seed": 410001,
+  "required": 999,
+  "max_actions": 3,
+  "status": "budget_exhausted",
+  "reason": null,
+  "actions": 3,
+  "observations": 4,
+  "records": [
+    {
+      "step": 0,
+      "pixels": 408,
+      "target": [
+        -0.061150475354934966,
+        0.11618474221411079,
+        0.25111810006573393
+      ],
+      "evaluation_remaining_cells": 166,
+      "evaluation_residual_area": 1.0
+    },
+    {
+      "step": 1,
+      "pixels": 408,
+      "target": [
+        -0.061150475354934966,
+        0.11618474221411079,
+        0.25111810006573393
+      ],
+      "evaluation_remaining_cells": 166,
+      "evaluation_residual_area": 1.0
+    },
+    {
+      "step": 2,
+      "pixels": 408,
+      "target": [
+        -0.061150475354934966,
+        0.11618474221411079,
+        0.25111810006573393
+      ],
+      "evaluation_remaining_cells": 166,
+      "evaluation_residual_area": 1.0
+    },
+    {
+      "step": 3,
+      "pixels": 408,
+      "target": [
+        -0.061150475354934966,
+        0.11618474221411079,
+        0.25111810006573393
+      ],
+      "evaluation_remaining_cells": 166,
+      "evaluation_residual_area": 1.0
+    }
+  ],
+  "remaining_cells": 166,
+  "residual_area": 1.0,
+  "false_clear": false,
+  "checked_configurations": 3268,
+  "executed_samples": 3274,
+  "max_joint_step_deg": 0.2493944261771197,
+  "planned_duration_s": 69.46000000000338,
+  "compute_duration_s": 3.676166645000194,
+  "patches": [
+    {
+      "center_uv_m": [
+        -0.058646655869416114,
+        0.12199765482847491
+      ],
+      "radius_uv_m": [
+        0.012662808960548583,
+        0.01517636958669613
+      ],
+      "required_passes": 5
+    },
+    {
+      "center_uv_m": [
+        0.006526966123960186,
+        0.09505587315462352
+      ],
+      "radius_uv_m": [
+        0.01909345392695039,
+        0.017616987352397407
+      ],
+      "required_passes": 1
+    },
+    {
+      "center_uv_m": [
+        0.06961543729651339,
+        0.06709362875211641
+      ],
+      "radius_uv_m": [
+        0.01721242248996138,
+        0.01731453147807995
+      ],
+      "required_passes": 3
+    }
+  ],
+  "required_passes_values": [
+    999
+  ],
+  "scope": "RGB-only online perception; sampled kinematics/collision and geometric contact surrogate; no dynamics or torque control"
+}

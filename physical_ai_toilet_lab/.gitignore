@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+logs/
+data/raw/
+checkpoints/
+.env
+data/segmentation_v1/cache/

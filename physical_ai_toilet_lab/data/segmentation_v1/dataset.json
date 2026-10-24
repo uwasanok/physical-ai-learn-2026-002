@@ -1,0 +1,58 @@
+{
+  "version": "segmentation_v1",
+  "resolution": [
+    320,
+    240
+  ],
+  "labels": {
+    "0": "clean or background",
+    "1": "dirt",
+    "255": "unobserved ROI; ignore loss"
+  },
+  "splits": {
+    "train": {
+      "images": 600,
+      "empty_images": 102,
+      "dirty_pixels": 180880,
+      "seed_range": [
+        100000,
+        100599
+      ]
+    },
+    "validation": {
+      "images": 120,
+      "empty_images": 16,
+      "dirty_pixels": 39320,
+      "seed_range": [
+        200000,
+        200119
+      ]
+    },
+    "test": {
+      "images": 120,
+      "empty_images": 25,
+      "dirty_pixels": 36140,
+      "seed_range": [
+        300000,
+        300119
+      ]
+    }
+  },
+  "split_unit": "scene seed; one image per scene; disjoint seed ranges",
+  "metadata_not_model_inputs": [
+    "seed",
+    "patches",
+    "required_passes",
+    "true mask"
+  ],
+  "geometry": "quartic_bowl_with_rim_v1",
+  "observation": "raised and rotated UR5e pose; full declared ROI visible",
+  "training_status": "not trained",
+  "limitations": [
+    "synthetic illustrative geometry only",
+    "procedural shadows/highlights not physical lighting",
+    "fixed camera and robot observation pose",
+    "only four stain color families",
+    "no real-image validation"
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "status": "observed_roi_clear",
+  "actions": 23,
+  "observations": [
+    {
+      "step": 0,
+      "detected_pixels": 1608,
+      "target_xyz_m": [
+        0.0038014606728502265,
+        0.12384324681434805,
+        0.2680088769741776
+      ],
+      "evaluation_residual_area": 1.0
+    },
+    {
+      "step": 1,
+      "detected_pixels": 1608,
+      "target_xyz_m": [
+        0.0038014606728502265,
+        0.12384324681434805,
+        0.2680088769741776
+      ],
+      "evaluation_residual_area": 1.0
+    },
+    {
+      "step": 2,
+      "detected_pixels": 1608,
+      "target_xyz_m": [
+        0.0038014606728502265,
+        0.12384324681434805,
+        0.2680088769741776
+      ],
+      "evaluation_residual_area": 1.0
+    },
+    {
+      "step": 3,
+      "detected_pixels": 1608,
+      "target_xyz_m": [
+        0.0038014606728502265,
+        0.12384324681434805,
+        0.2680088769741776
+      ],
+      "evaluation_residual_area": 1.0
+    },
+    {
+      "step": 4,
+      "detected_pixels": 1608,
+      "target_xyz_m": [
+        0.0038014606728502265,
+        0.12384324681434805,
+        0.2680088769741776
+      ],
+      "evaluation_residual_area": 1.0
+    },
+    {
+      "step": 5,
+      "detected_pixels": 1203,
+      "target_xyz_m": [
+        0.0037921986216053884,
+        0.10779103080849772,
+        0.25638897542742983
+      ],
+      "evaluation_residual_area": 0.7676445134719866
+    },
+    {
+      "step": 6,
+      "detected_pixels": 1203,
+      "target_xyz_m": [
+        0.0037921986216053884,
+        0.10779103080849772,
+        0.25638897542742983
+      ],
+      "evaluation_residual_area": 0.7676445134719866
+    },
+    {
+      "step": 7,
+      "detected_pixels": 1203,
+      "target_xyz_m": [
+        0.0037921986216053884,
+        0.10779103080849772,
+        0.25638897542742983
+      ],
+      "evaluation_residual_area": 0.7676445134719866
+    },
+    {
+      "step": 8,
+      "detected_pixels": 1203,
+      "target_xyz_m": [
+        0.0037921986216053884,
+        0.10779103080849772,
+        0.25638897542742983
+      ],
+      "evaluation_residual_area": 0.7676445134719866
+    },
+    {
+      "step": 9,
+      "detected_pixels": 1203,
+      "target_xyz_m": [
+        0.0037921986216053884,
+        0.10779103080849772,
+        0.25638897542742983
+      ],
+      "evaluation_residual_area": 0.7676445134719866
+    },
+    {
+      "step": 10,
+      "detected_pixels": 1024,
+      "target_xyz_m": [
+        0.06817621420543107,
+        0.09995030955639689,
+        0.2770411522076157
+      ],
+      "evaluation_residual_area": 0.6666934603581113
+    },
+    {
+      "step": 11,
+      "detected_pixels": 1024,
+      "target_xyz_m": [
+        0.06817621420543107,
+        0.09995030955639689,
+        0.2770411522076157
+      ],
+      "evaluation_residual_area": 0.6666934603581113
+    },
+    {
+      "step": 12,
+      "detected_pixels": 1024,
+      "target_xyz_m": [
+        0.06817621420543107,
+        0.09995030955639689,
+        0.2770411522076157
+      ],
+      "evaluation_residual_area": 0.6666934603581113
+    },
+    {
+      "step": 13,
+      "detected_pixels": 683,
+      "target_xyz_m": [
+        0.07619122444974555,
+        0.08405435388883992,
+        0.2743291154859226
+      ],
+      "evaluation_residual_area": 0.44674316834565003
+    },
+    {
+      "step": 14,
+      "detected_pixels": 683,
+      "target_xyz_m": [
+        0.07619122444974555,
+        0.08405435388883992,
+        0.2743291154859226
+      ],
+      "evaluation_residual_area": 0.44674316834565003
+    },
+    {
+      "step": 15,
+      "detected_pixels": 683,
+      "target_xyz_m": [
+        0.07619122444974555,
+        0.08405435388883992,
+        0.2743291154859226
+      ],
+      "evaluation_residual_area": 0.44674316834565003
+    },
+    {
+      "step": 16,
+      "detected_pixels": 419,
+      "target_xyz_m": [
+        -0.07598579823692969,
+        0.07597986115887345,
+        0.27011733272734356
+      ],
+      "evaluation_residual_area": 0.2703597469009626
+    },
+    {
+      "step": 17,
+      "detected_pixels": 165,
+      "target_xyz_m": [
+        -0.07559326550791459,
+        0.06141227104689251,
+        0.2635321777634146
+      ],
+      "evaluation_residual_area": 0.10370286519920183
+    },
+    {
+      "step": 18,
+      "detected_pixels": 54,
+      "target_xyz_m": [
+        0.003171676960426807,
+        0.13437610487945473,
+        0.2764838161871628
+      ],
+      "evaluation_residual_area": 0.029164603444879273
+    },
+    {
+      "step": 19,
+      "detected_pixels": 54,
+      "target_xyz_m": [
+        0.003171676960426807,
+        0.13437610487945473,
+        0.2764838161871628
+      ],
+      "evaluation_residual_area": 0.029164603444879273
+    },
+    {
+      "step": 20,
+      "detected_pixels": 54,
+      "target_xyz_m": [
+        0.003171676960426807,
+        0.13437610487945473,
+        0.2764838161871628
+      ],
+      "evaluation_residual_area": 0.029164603444879273
+    },
+    {
+      "step": 21,
+      "detected_pixels": 54,
+      "target_xyz_m": [
+        0.003171676960426807,
+        0.13437610487945473,
+        0.2764838161871628
+      ],
+      "evaluation_residual_area": 0.029164603444879273
+    },
+    {
+      "step": 22,
+      "detected_pixels": 54,
+      "target_xyz_m": [
+        0.003171676960426807,
+        0.13437610487945473,
+        0.2764838161871628
+      ],
+      "evaluation_residual_area": 0.029164603444879273
+    },
+    {
+      "step": 23,
+      "detected_pixels": 0,
+      "target_xyz_m": null,
+      "evaluation_residual_area": 0.0
+    }
+  ],
+  "evaluation_residual_area": 0.0,
+  "evaluation_false_clear": false,
+  "seed": 123
+}

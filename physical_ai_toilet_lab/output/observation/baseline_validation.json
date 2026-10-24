@@ -1,0 +1,14 @@
+{
+  "method": "existing untrained brown threshold, unchanged",
+  "split": "validation only",
+  "pixel_iou": 0.05862156663275687,
+  "precision": 1.0,
+  "recall": 0.05862156663275687,
+  "tp": 2305,
+  "fp": 0,
+  "fn": 37015,
+  "empty_images": 16,
+  "empty_images_with_false_detection": 0,
+  "test_set_metrics": "not evaluated",
+  "training_status": "not trained"
+}

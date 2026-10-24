@@ -1,0 +1,345 @@
+{
+  "status": "observed_roi_clear",
+  "actions": 33,
+  "observations": [
+    {
+      "step": 0,
+      "detected_pixels": 1902,
+      "target_xyz_m": [
+        -0.06830168407186651,
+        0.10793729530764895,
+        0.28232502021452244
+      ],
+      "evaluation_residual_area": 1.0
+    },
+    {
+      "step": 1,
+      "detected_pixels": 1417,
+      "target_xyz_m": [
+        0.059751055727264385,
+        0.09994964546261181,
+        0.2710529177851662
+      ],
+      "evaluation_residual_area": 0.735335859159287
+    },
+    {
+      "step": 2,
+      "detected_pixels": 1417,
+      "target_xyz_m": [
+        0.059751055727264385,
+        0.09994964546261181,
+        0.2710529177851662
+      ],
+      "evaluation_residual_area": 0.735335859159287
+    },
+    {
+      "step": 3,
+      "detected_pixels": 1417,
+      "target_xyz_m": [
+        0.059751055727264385,
+        0.09994964546261181,
+        0.2710529177851662
+      ],
+      "evaluation_residual_area": 0.735335859159287
+    },
+    {
+      "step": 4,
+      "detected_pixels": 1012,
+      "target_xyz_m": [
+        0.003758435221743892,
+        0.07618030208564319,
+        0.23821422194367897
+      ],
+      "evaluation_residual_area": 0.5176478425983773
+    },
+    {
+      "step": 5,
+      "detected_pixels": 1012,
+      "target_xyz_m": [
+        0.003758435221743892,
+        0.07618030208564319,
+        0.23821422194367897
+      ],
+      "evaluation_residual_area": 0.5176478425983773
+    },
+    {
+      "step": 6,
+      "detected_pixels": 1012,
+      "target_xyz_m": [
+        0.003758435221743892,
+        0.07618030208564319,
+        0.23821422194367897
+      ],
+      "evaluation_residual_area": 0.5176478425983773
+    },
+    {
+      "step": 7,
+      "detected_pixels": 1012,
+      "target_xyz_m": [
+        0.003758435221743892,
+        0.07618030208564319,
+        0.23821422194367897
+      ],
+      "evaluation_residual_area": 0.5176478425983773
+    },
+    {
+      "step": 8,
+      "detected_pixels": 1012,
+      "target_xyz_m": [
+        0.003758435221743892,
+        0.07618030208564319,
+        0.23821422194367897
+      ],
+      "evaluation_residual_area": 0.5176478425983773
+    },
+    {
+      "step": 9,
+      "detected_pixels": 704,
+      "target_xyz_m": [
+        0.003737942662218416,
+        0.060185522560758375,
+        0.23139730193706268
+      ],
+      "evaluation_residual_area": 0.3657494268109806
+    },
+    {
+      "step": 10,
+      "detected_pixels": 704,
+      "target_xyz_m": [
+        0.003737942662218416,
+        0.060185522560758375,
+        0.23139730193706268
+      ],
+      "evaluation_residual_area": 0.3657494268109806
+    },
+    {
+      "step": 11,
+      "detected_pixels": 704,
+      "target_xyz_m": [
+        0.003737942662218416,
+        0.060185522560758375,
+        0.23139730193706268
+      ],
+      "evaluation_residual_area": 0.3657494268109806
+    },
+    {
+      "step": 12,
+      "detected_pixels": 704,
+      "target_xyz_m": [
+        0.003737942662218416,
+        0.060185522560758375,
+        0.23139730193706268
+      ],
+      "evaluation_residual_area": 0.3657494268109806
+    },
+    {
+      "step": 13,
+      "detected_pixels": 704,
+      "target_xyz_m": [
+        0.003737942662218416,
+        0.060185522560758375,
+        0.23139730193706268
+      ],
+      "evaluation_residual_area": 0.3657494268109806
+    },
+    {
+      "step": 14,
+      "detected_pixels": 409,
+      "target_xyz_m": [
+        0.06783668021253575,
+        0.08452644288535194,
+        0.26789288848534076
+      ],
+      "evaluation_residual_area": 0.2188088639032223
+    },
+    {
+      "step": 15,
+      "detected_pixels": 409,
+      "target_xyz_m": [
+        0.06783668021253575,
+        0.08452644288535194,
+        0.26789288848534076
+      ],
+      "evaluation_residual_area": 0.2188088639032223
+    },
+    {
+      "step": 16,
+      "detected_pixels": 409,
+      "target_xyz_m": [
+        0.06783668021253575,
+        0.08452644288535194,
+        0.26789288848534076
+      ],
+      "evaluation_residual_area": 0.2188088639032223
+    },
+    {
+      "step": 17,
+      "detected_pixels": 203,
+      "target_xyz_m": [
+        -0.06805613373944136,
+        0.09288512983848951,
+        0.2726927165065935
+      ],
+      "evaluation_residual_area": 0.10675954825091692
+    },
+    {
+      "step": 18,
+      "detected_pixels": 77,
+      "target_xyz_m": [
+        0.0037183506863828764,
+        0.049335295875051643,
+        0.22768297252810443
+      ],
+      "evaluation_residual_area": 0.04054545611753068
+    },
+    {
+      "step": 19,
+      "detected_pixels": 77,
+      "target_xyz_m": [
+        0.0037183506863828764,
+        0.049335295875051643,
+        0.22768297252810443
+      ],
+      "evaluation_residual_area": 0.04054545611753068
+    },
+    {
+      "step": 20,
+      "detected_pixels": 77,
+      "target_xyz_m": [
+        0.0037183506863828764,
+        0.049335295875051643,
+        0.22768297252810443
+      ],
+      "evaluation_residual_area": 0.04054545611753068
+    },
+    {
+      "step": 21,
+      "detected_pixels": 77,
+      "target_xyz_m": [
+        0.0037183506863828764,
+        0.049335295875051643,
+        0.22768297252810443
+      ],
+      "evaluation_residual_area": 0.04054545611753068
+    },
+    {
+      "step": 22,
+      "detected_pixels": 77,
+      "target_xyz_m": [
+        0.0037183506863828764,
+        0.049335295875051643,
+        0.22768297252810443
+      ],
+      "evaluation_residual_area": 0.04054545611753068
+    },
+    {
+      "step": 23,
+      "detected_pixels": 29,
+      "target_xyz_m": [
+        0.022380756769247376,
+        0.06114038396873056,
+        0.23446447616097973
+      ],
+      "evaluation_residual_area": 0.015732399975302565
+    },
+    {
+      "step": 24,
+      "detected_pixels": 29,
+      "target_xyz_m": [
+        0.022380756769247376,
+        0.06114038396873056,
+        0.23446447616097973
+      ],
+      "evaluation_residual_area": 0.015732399975302565
+    },
+    {
+      "step": 25,
+      "detected_pixels": 29,
+      "target_xyz_m": [
+        0.022380756769247376,
+        0.06114038396873056,
+        0.23446447616097973
+      ],
+      "evaluation_residual_area": 0.015732399975302565
+    },
+    {
+      "step": 26,
+      "detected_pixels": 29,
+      "target_xyz_m": [
+        0.022380756769247376,
+        0.06114038396873056,
+        0.23446447616097973
+      ],
+      "evaluation_residual_area": 0.015732399975302565
+    },
+    {
+      "step": 27,
+      "detected_pixels": 29,
+      "target_xyz_m": [
+        0.022380756769247376,
+        0.06114038396873056,
+        0.23446447616097973
+      ],
+      "evaluation_residual_area": 0.015732399975302565
+    },
+    {
+      "step": 28,
+      "detected_pixels": 10,
+      "target_xyz_m": [
+        0.02247568669186776,
+        0.07097671681637863,
+        0.2385492197384124
+      ],
+      "evaluation_residual_area": 0.0053173798147752
+    },
+    {
+      "step": 29,
+      "detected_pixels": 10,
+      "target_xyz_m": [
+        0.02247568669186776,
+        0.07097671681637863,
+        0.2385492197384124
+      ],
+      "evaluation_residual_area": 0.0053173798147752
+    },
+    {
+      "step": 30,
+      "detected_pixels": 10,
+      "target_xyz_m": [
+        0.02247568669186776,
+        0.07097671681637863,
+        0.2385492197384124
+      ],
+      "evaluation_residual_area": 0.0053173798147752
+    },
+    {
+      "step": 31,
+      "detected_pixels": 10,
+      "target_xyz_m": [
+        0.02247568669186776,
+        0.07097671681637863,
+        0.2385492197384124
+      ],
+      "evaluation_residual_area": 0.0053173798147752
+    },
+    {
+      "step": 32,
+      "detected_pixels": 10,
+      "target_xyz_m": [
+        0.02247568669186776,
+        0.07097671681637863,
+        0.2385492197384124
+      ],
+      "evaluation_residual_area": 0.0053173798147752
+    },
+    {
+      "step": 33,
+      "detected_pixels": 0,
+      "target_xyz_m": null,
+      "evaluation_residual_area": 0.0
+    }
+  ],
+  "evaluation_residual_area": 0.0,
+  "evaluation_false_clear": false,
+  "seed": 999
+}

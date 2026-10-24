@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "images": 840,
+  "counts": {
+    "train": 600,
+    "validation": 120,
+    "test": 120
+  },
+  "unique_image_hashes": 840,
+  "reproducible_examples": 3,
+  "checks": [
+    "disjoint seed ranges",
+    "no identical RGB files",
+    "sizes and labels",
+    "dirt restricted to observable ROI",
+    "SHA256",
+    "exact seed regeneration"
+  ]
+}

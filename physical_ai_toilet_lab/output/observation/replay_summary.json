@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "samples": 39349,
+  "observations": 36,
+  "remaining_cells": 0,
+  "planned_duration_s": 822.2599999995628,
+  "max_joint_step_deg": 0.24999999999970457,
+  "description": "Replay of existing targets with validated observation routes; not newly trained perception"
+}
